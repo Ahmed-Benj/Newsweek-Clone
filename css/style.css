@@ -1,12 +1,13 @@
 :root {
   font-size: 16px;
+
   --main-font: "Roboto", arial, helvetica, sans-serif;
 }
 
-* {
+/* * {
   padding: 0;
   margin: 0;
-}
+} */
 
 .fa-1x {
   font-size: 1.2rem;
@@ -72,4 +73,8 @@
 .navbar-toggler {
   width: 2rem;
   border: none;
+}
+
+.top-story article {
+  padding: 15px;
 }
