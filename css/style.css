@@ -1,6 +1,6 @@
 :root {
-	font-size: 16px;
-	--main-font: 'Roboto', arial, helvetica, sans-serif;
+  font-size: 16px;
+  --main-font: "Roboto", arial, helvetica, sans-serif;
 }
 
 /* * {
@@ -9,140 +9,147 @@
 } */
 
 body {
-	padding-top: 2.5rem;
+  padding-top: 2.5rem;
 }
 .fa-1x {
-	font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .navbar-toggler.toggler-example {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .navbar {
-	padding: 0;
-	margin: 0;
-	height: 3rem;
-	background-color: #ff201c;
+  padding: 0;
+  margin: 0;
+  height: 3rem;
+  background-color: #ff201c;
 }
 
 .navbar-brand svg {
-	fill: white;
-	width: 9rem;
+  fill: white;
+  width: 9rem;
 }
 
 .navbar-brand {
-	padding: 0;
-	margin: 0;
-	width: 9rem;
+  padding: 0;
+  margin: 0;
+  width: 9rem;
 }
 
 .login-icon {
-	color: rgba(255, 255, 255, 0.459);
-	padding: 0;
-	margin: 0;
-	width: 2rem;
-	align-items: center;
+  color: rgba(255, 255, 255, 0.459);
+  padding: 0;
+  margin: 0;
+  width: 2rem;
+  align-items: center;
 }
 
 .menu-mb {
-	color: rgba(255, 255, 255, 0.459);
+  color: rgba(255, 255, 255, 0.459);
 }
 
 .btn {
-	background-color: #ffe400;
-	border-radius: 1.5rem;
-	width: 6rem;
-	height: 1.4rem;
-	font-family: var(--main-font);
-	text-align: center;
-	padding: 0;
+  background-color: #ffe400;
+  border-radius: 1.5rem;
+  width: 6rem;
+  height: 1.4rem;
+  font-family: var(--main-font);
+  text-align: center;
+  padding: 0;
 }
 
 .btn::after {
-	content: '';
-	display: inline-block;
-	width: 4px;
-	height: 9px;
-	background-color: black;
-	-webkit-mask: url(https://g.newsweek.com/www/images/icon-arrow-right.svg)
-		center / contain no-repeat;
-	mask: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center /
-		contain no-repeat;
-	margin-left: 5px;
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 9px;
+  background-color: black;
+  -webkit-mask: url(https://g.newsweek.com/www/images/icon-arrow-right.svg)
+    center / contain no-repeat;
+  mask: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center /
+    contain no-repeat;
+  margin-left: 5px;
 }
 
 .navbar-toggler {
-	width: 2rem;
-	border: none;
+  width: 2rem;
+  border: none;
 }
 
 .top-story article {
-	padding: 15px;
+  padding: 15px;
+}
+
+.debate-container {
+  border-top: 0.3rem solid #9a9a9a;
+  border-bottom: 0.3rem solid #9a9a9a;
 }
 
 .debate {
-	margin-top: 1.5rem;
-}
-.title {
-	font-family: var(--main-font);
-	border-bottom: 0.3rem solid #9a9a9a;
+  margin-top: 1.5rem;
 }
 
-.title > a {
-	text-decoration: none;
-	color: #9a9a9a;
-	font-weight: 700;
-	line-height: 1.4rem;
-	font-size: 1rem;
+.title {
+  font-family: var(--main-font);
+}
+
+.title > a,
+.title2 > a {
+  text-decoration: none;
+  color: #9a9a9a;
+  font-weight: 700;
+  line-height: 1.4rem;
+  font-size: 1rem;
 }
 
 .debate-img {
-	align-items: center;
-	padding: 0 0.5rem;
-	font-family: var(--main-font);
-	font-weight: 700;
-	line-height: 1.4rem;
-	font-size: 1rem;
+  align-items: center;
+  padding: 0 0.5rem;
+  font-family: var(--main-font);
+  font-weight: 700;
+  line-height: 1.4rem;
+  font-size: 1rem;
 }
 
-.debate::after {
-	content: '';
-	display: block;
-	background-color: #d9d9d9;
-	margin-top: 1rem;
-	height: 0.1rem;
+.debate1::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  margin-top: -1rem;
 }
 
 .debate2::before {
-	content: '';
-	display: block;
-	background-color: #d9d9d9;
-
-	height: 0.1rem;
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 0.1rem;
 }
 
 .debate-img2 {
-	align-items: center;
-	flex-direction: row-reverse;
-	padding: 0 0.5rem;
-	font-family: var(--main-font);
-	font-weight: 700;
-	line-height: 1.4rem;
-	font-size: 1rem;
-	border-bottom: 0.3rem solid #9a9a9a;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 0 0.5rem;
+  font-family: var(--main-font);
+  font-weight: 700;
+  line-height: 1.4rem;
+  font-size: 1rem;
 }
 
 .c-vs {
-	position: relative;
-	z-index: 1;
-	width: 32px;
-	height: 32px;
-	background-color: #000;
-	color: #d6d6d6;
-	border-radius: 50%;
-	font: bold 14px/32px 'Roboto Condensed', sans-serif;
-	text-align: center;
-	margin: 6px auto;
-	top: 2rem;
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/32px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 6px auto;
+  top: 0.5rem;
+}
+
+.border-bottom {
+  border-bottom: 1px solid gray;
 }
