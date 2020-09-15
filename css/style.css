@@ -1,0 +1,62 @@
+:root {
+	font-size: 16px;
+	--main-font: 'Roboto', Arial, Helvetica, sans-serif;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.navbar {
+	background-color: #ff201c;
+}
+
+.fa-1x {
+	font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+	cursor: pointer;
+}
+
+.navbar {
+	/* flex-direction: row; */
+	padding: 0;
+	margin: 0;
+}
+
+.navbar-brand img {
+	width: 9rem;
+}
+
+.navbar-brand {
+	padding: 0;
+	margin: 0;
+	width: 9rem;
+}
+
+.login-icon {
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	width: 2rem;
+}
+
+.menu-mb {
+	color: #fff;
+}
+
+.btn {
+	background-color: #ffe400;
+	border-radius: 1.5rem;
+	width: 6rem;
+	height: 1.4rem;
+	font-family: var(--main-font);
+	text-align: center;
+	padding: 0;
+}
+
+.navbar-toggler {
+	padding: 0;
+	margin: 0;
+	width: 4rem;
+}
