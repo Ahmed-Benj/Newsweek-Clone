@@ -23,7 +23,7 @@ media queries
 
 ## Live Demo
 
-- [Live Demo Link](https://coming soon)
+- [Live Demo Link](https://ramon-carrillo.github.io/Newsweek-Clone/)
 
 #### Prerequisites
 
@@ -40,8 +40,8 @@ media queries
 
 👤 **Ahmed Ben Jmii**
 
-- Github (https://github.com/Ahmed-Benj)
-- Linkedin (https://www.linkedin.com/in/ahmed-b-05600992/)
+- Github [@githubhandle](https://github.com/Ahmed-Benj)
+- Linkedin [linkedin](https://www.linkedin.com/in/ahmed-b-05600992/)
 
 ## 🤝 Contributing
 
