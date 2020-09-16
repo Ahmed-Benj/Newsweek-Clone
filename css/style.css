@@ -154,3 +154,7 @@ body {
 .border-bottom {
 	border-bottom: 1px solid gray;
 }
+
+.more-stories {
+	border-bottom: 0.2rem solid #d6d6d6;
+}
