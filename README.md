@@ -34,8 +34,9 @@ media queries
 
 👤 **Ramon Carrillo**
 
-- Github (https://github.com/Ramon-Carrillo)
-- Linkedin (https://www.linkedin.com/in/)
+- Github [@githubhandle](https://github.com/Ramon-Carrillo)
+- Twitter: [@twitterhandle](https://twitter.com/ramon_de_NL)
+- Linkedin [linkedin](https://www.linkedin.com/in/ramon-carrillo-54525a1ab/)
 
 👤 **Ahmed Ben Jmii**
 
