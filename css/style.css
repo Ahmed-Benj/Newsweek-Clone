@@ -191,3 +191,7 @@ body {
   width: 29px;
   height: 28px;
 }
+
+.sponsor-info {
+  border: 1px solid #e6e6e6;
+}
