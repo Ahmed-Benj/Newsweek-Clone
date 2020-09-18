@@ -1,369 +1,450 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no"
-		/>
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<link
-			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-			crossorigin="anonymous"
-		/>
-		<link rel="stylesheet" href="css/style.css" />
-		<link
-			href="//db.onlinewebfonts.com/c/cf4449c1884598b292630aa9f4007c19?family=Roboto+Condensed"
-			rel="stylesheet"
-			type="text/css"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-			integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-			crossorigin="anonymous"
-		/>
-		<link
-			rel="icon"
-			href="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png"
-		/>
-		<title>Newsweek- News, Analysis, Politics, Busine...</title>
-	</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="//db.onlinewebfonts.com/c/cf4449c1884598b292630aa9f4007c19?family=Roboto+Condensed"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="icon"
+      href="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png"
+    />
+    <title>Newsweek- News, Analysis, Politics, Busine...</title>
+  </head>
 
-	<body>
-		<div class="fixed-top" id="stickynav">
-			<div class="d-flex justify-content-between navscroll">
-				<div class="p-2"></div>
-				<div class="p-2" id="signin">
-					<span>SIGN IN</span
-					><a href="#" id="signinA"
-						>SUBSCRIBE <i class="fas fa-chevron-right fa-sm"></i
-					></a>
-					<i class="fas fa-bars" id="barsId"></i>
-				</div>
-			</div>
+  <body>
+    <div class="fixed-top" id="stickynav">
+      <div class="d-flex justify-content-between navscroll">
+        <div class="p-2"></div>
+        <div class="p-2" id="signin">
+          <span>SIGN IN</span
+          ><a href="#" id="signinA"
+            >SUBSCRIBE <i class="fas fa-chevron-right fa-sm"></i
+          ></a>
+          <i class="fas fa-bars" id="barsId"></i>
+        </div>
+      </div>
 
-			<div class="logoimg" id="biglogoid">
-				<svg
-					version="1.1"
-					id="Layer_1"
-					xmlns="http://www.w3.org/2000/svg"
-					xmlns:xlink="http://www.w3.org/1999/xlink"
-					x="0px"
-					y="0px"
-					viewBox="0 0 395.6 60"
-					style="enable-background: new 0 0 395.6 60"
-					xml:space="preserve"
-				>
-					<g>
-						<path
-							class="st0"
-							d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
-						></path>
-					</g>
-				</svg>
-			</div>
-		</div>
+      <div class="logoimg" id="biglogoid">
+        <svg
+          version="1.1"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 395.6 60"
+          style="enable-background: new 0 0 395.6 60"
+          xml:space="preserve"
+        >
+          <g>
+            <path
+              class="st0"
+              d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+            ></path>
+          </g>
+        </svg>
+      </div>
+    </div>
 
-		<nav class="header-bottom navbottom">
-			<ul class="page-nav">
-				<li><a href="#">U.S.</a></li>
-				<li><a href="#">World</a></li>
-				<li><a href="#">Business</a></li>
-				<li><a href="#">Tech & Science</a></li>
-				<li><a href="#">Culture</a></li>
-				<li><a href="#">Newsgeek</a></li>
-				<li><a href="#">Sports</a></li>
-				<li><a href="#">Health</a></li>
-				<li><a href="#">The Debate</a></li>
-				<li><a href="#">Vantage</a></li>
-				<li><a href="#">Weather</a></li>
-				<li>
-					<a class="mr-2" href="#" id="search">Search</a
-					><a href="" class="search-glass"></a>
-				</li>
-			</ul>
-		</nav>
-		<nav class="header-bottom2 navbottom">
-			<ul class="page-nav2 pt-2">
-				<li><a href="#">TRENDING</a></li>
-				<li><a class="text-secondary" href="#">DONALD TRUMP</a></li>
-				<li><a class="text-secondary" href="#">JOE BIDEN</a></li>
-				<li><a class="text-secondary" href="#">CHINA</a></li>
-				<li><a class="text-secondary" href="#">CORONAVIRUS</a></li>
-				<li><a class="text-secondary" href="#">2020 ELECTION</a></li>
-			</ul>
-		</nav>
+    <nav class="header-bottom navbottom">
+      <ul class="page-nav">
+        <li><a href="#">U.S.</a></li>
+        <li><a href="#">World</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Tech & Science</a></li>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">Newsgeek</a></li>
+        <li><a href="#">Sports</a></li>
+        <li><a href="#">Health</a></li>
+        <li><a href="#">The Debate</a></li>
+        <li><a href="#">Vantage</a></li>
+        <li><a href="#">Weather</a></li>
+        <li>
+          <a class="mr-2" href="#" id="search">Search</a
+          ><a href="" class="search-glass"></a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="header-bottom2 navbottom">
+      <ul class="page-nav2 pt-2">
+        <li><a href="#">TRENDING</a></li>
+        <li><a class="text-secondary" href="#">DONALD TRUMP</a></li>
+        <li><a class="text-secondary" href="#">JOE BIDEN</a></li>
+        <li><a class="text-secondary" href="#">CHINA</a></li>
+        <li><a class="text-secondary" href="#">CORONAVIRUS</a></li>
+        <li><a class="text-secondary" href="#">2020 ELECTION</a></li>
+      </ul>
+    </nav>
 
-		<div class="content">
-			<div class="featured">
-				<div class="row">
-					<div class="col-md-5 col-lg-3 order-2 order-md-1">
-						<div class="featured">
-							<div class="block-title">FEATURED STORIES</div>
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1638617/joe-biden-endorsement-ncpssm.jpg?w=397&h=265&q=90&f=bc5b109d6072e5bec62c4994be1d764f"
-										/><span class="pic-on">U.S</span></a
-									>
-								</div>
-								<div class="article-info">
-									<h3>
-										Fearing for Social Security, National Seniors' Group
-										Endorses Biden
-									</h3>
-									<div class="summary">
-										This is the first time that the National Committee to
-										Preserve Social Security and Medicare (NCPSSM), which was
-										founded by the late son of President Franklin Delano
-										Roosevelt, has ever endorsed a candidate for president.
-									</div>
-								</div>
-							</article>
+    <div class="content">
+      <div class="featured">
+        <div class="row">
+          <div class="col-md-5 col-lg-3 order-2 order-md-1">
+            <div class="featured">
+              <div class="block-title">FEATURED STORIES</div>
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1638617/joe-biden-endorsement-ncpssm.jpg?w=397&h=265&q=90&f=bc5b109d6072e5bec62c4994be1d764f"
+                    /><span class="pic-on">U.S</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Fearing for Social Security, National Seniors' Group
+                    Endorses Biden
+                  </h3>
+                  <div class="summary">
+                    This is the first time that the National Committee to
+                    Preserve Social Security and Medicare (NCPSSM), which was
+                    founded by the late son of President Franklin Delano
+                    Roosevelt, has ever endorsed a candidate for president.
+                  </div>
+                </div>
+              </article>
 
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1638701/daniel-prude-rochester-police-department.jpg?w=397&h=265&q=90&f=0ad2ac05dc88e72e44e4676a483fc4b2"
-										/><span class="pic-on">U.S.</span></a
-									>
-								</div>
-								<div class="article-info">
-									<h3>
-										Rochester Police Wanted to 'Make' Daniel Prude a 'Suspect'
-									</h3>
-									<div class="summary">
-										Someone circled Prude's name with a red pencil and wrote
-										"make him a suspect" on an incident report.
-									</div>
-								</div>
-								<div class="related">
-									Letter to Congress, Trump: Make Colleges Protect Speech
-								</div>
-							</article>
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1638701/daniel-prude-rochester-police-department.jpg?w=397&h=265&q=90&f=0ad2ac05dc88e72e44e4676a483fc4b2"
+                    /><span class="pic-on">U.S.</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Rochester Police Wanted to 'Make' Daniel Prude a 'Suspect'
+                  </h3>
+                  <div class="summary">
+                    Someone circled Prude's name with a red pencil and wrote
+                    "make him a suspect" on an incident report.
+                  </div>
+                </div>
+                <div class="related">
+                  Letter to Congress, Trump: Make Colleges Protect Speech
+                </div>
+              </article>
 
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1638696/voting-arizona.jpg?w=397&amp;h=265&amp;q=90&amp;f=9086ab16983db18d87f14c199e19a8ea"
-										/><span class="pic-on">NEWS</span></a
-									>
-								</div>
-								<div class="article-info">
-									<h3>
-										Economy More Important Than Health Care For 32% Of 3 Swing
-										States' Voters
-									</h3>
-									<div class="summary">
-										Health care ranks as the fourth top issue among voters in
-										the Sun Belt, following the economy, criminal justice and
-										the coronavirus pandemic.
-									</div>
-								</div>
-							</article>
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1638696/voting-arizona.jpg?w=397&amp;h=265&amp;q=90&amp;f=9086ab16983db18d87f14c199e19a8ea"
+                    /><span class="pic-on">NEWS</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Economy More Important Than Health Care For 32% Of 3 Swing
+                    States' Voters
+                  </h3>
+                  <div class="summary">
+                    Health care ranks as the fourth top issue among voters in
+                    the Sun Belt, following the economy, criminal justice and
+                    the coronavirus pandemic.
+                  </div>
+                </div>
+              </article>
 
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1638518/blm-white-protester.jpg?w=397&amp;h=265&amp;q=90&amp;f=5cac0adcbec42d689d1dcda34beecc1b"
-										/><span class="pic-on">U.S.</span></a
-									>
-								</div>
-								<div class="article-info">
-									<h3>
-										Number of White Adults Who Think U.S. Has Race Problem
-										Plummets
-									</h3>
-									<div class="summary">
-										As protests continue across the country against racial
-										injustice and police violence, a new poll shows that the
-										number of overall adults, white adults, and practising
-										Christians who say that race is a problem in the U.S has
-										decreased.
-									</div>
-								</div>
-							</article>
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1638518/blm-white-protester.jpg?w=397&amp;h=265&amp;q=90&amp;f=5cac0adcbec42d689d1dcda34beecc1b"
+                    /><span class="pic-on">U.S.</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Number of White Adults Who Think U.S. Has Race Problem
+                    Plummets
+                  </h3>
+                  <div class="summary">
+                    As protests continue across the country against racial
+                    injustice and police violence, a new poll shows that the
+                    number of overall adults, white adults, and practising
+                    Christians who say that race is a problem in the U.S has
+                    decreased.
+                  </div>
+                </div>
+              </article>
 
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1638489/lafayette.jpg?w=397&amp;h=265&amp;q=90&amp;f=4f819f807713f8eded1170346496f538"
-											alt="Responsive image"
-										/><span class="pic-on">U.S</span></a
-									>
-								</div>
-								<div class="article-info">
-									<h3>Trump Admin Wanted to Use 'Heat Ray' on Protesters</h3>
-									<div class="summary">
-										A military whistleblower said federal officials asked about
-										crowd control technology hours before protesters were
-										forcibly cleared from Lafayette Square in Washington, D.C.
-									</div>
-								</div>
-								<div class="related">
-									'Like Opening Up An Oven Door'—Watch 'Heat Ray' Feds Wanted to
-									Use on Protesters in Action
-								</div>
-							</article>
-						</div>
-					</div>
-
-					<div class="col-md-7 col-lg-6 order-1 order-md-2">
-						<div class="featured">
-							<div class="block-title">TOP STORY</div>
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1638725/nord-stream.jpg?w=591&amp;h=364&amp;f=ecc44f248c53887e12ee903492534091"
-											alt="Responsive image"
-										/><span class="pic-on">OPINION</span></a
-									>
-								</div>
-								<h3>
-									For the Sake of Transatlantic Security, Stop Nord Stream 2
-								</h3>
-								<div class="summary">
-									Nord Stream 2 undermines both the Transatlantic relationship
-									and the idea of European unity. As former and current national
-									leaders, diplomats, ministers, and experts, we call for the
-									project to be stopped forthwith.
-								</div>
-							</article>
-						</div>
-						<div class="featured sticky-top">
-							<div class="block-title">MORE STORIES</div>
-							<div class="clearfix" id="more-stories-part">
-								<div id="image">
-									<img src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&amp;h=95&amp;f=150feb4010c47e3f031cc05c8fd07ffe" class="img-fluid" />
-								</div>
-								<h6>Obama Book Coming Post-Election Saves Former President Overshadowing Biden
-								</h6>
-								<div class="summary">The first volume of the former president's upcoming memoir is due to be released two weeks after election day.</div>
-							</div>
-
-							<div class="clearfix" id="more-stories-part">
-								<div id="image">
-									<img class="img-fluid" src="https://d.newsweek.com/en/full/1638809/cover-bibi-banner.jpg?w=95&amp;h=95&amp;f=07c832e39f44dedf313bb6a1b304c14c" />
-								</div>
-								<h6>Trump's Mideast Peace Deals Present Nobel Committee with Netanyahu Dilemma</h6>
-								<div class="summary">
-									"The Peace Prize is for peace, not for being a nice guy. Netanyahu brought peace," says one of the Israeli prime minister's supporters. Others—including the Palestinians—don't see it that way.
-								</div>
-							</div>
-
-							<div class="clearfix" id="more-stories-part">
-								<div id="image">
-									<img
-									src="https://d.newsweek.com/en/full/1637540/sweden-coronavirus-covid-19-getty.jpg?w=95&amp;h=95&amp;f=cd099ea4df7886ef70cb9d15f0e5c80d"
-										class="img-fluid"
-									/>
-								</div>
-								<h6>Sweden Claims Its High Coronavirus Death Toll Is Down to Mild Flu Seasons</h6>
-								<div class="summary">Norway's state epidemiologist questioned the idea put forward by his Swedish counterpart Anders Tegnell.</div>
-							</div>
-
-							<div class="clearfix" id="more-stories-part">
-								<div id="image">
-									<img src="https://d.newsweek.com/en/full/1638941/maine-sen-susan-collins.jpg?w=95&amp;h=95&amp;f=55838f8b4fa64c22f7eb53574f8eda33" class="img-fluid" />
-								</div>
-								<h6>GOP Senate Majority Under Threat As Incumbents Trail in Three Battlegrounds
-								</h6>
-								<div class="summary">Arizona Sen. Martha McSally was 8 points behind Democratic candidate Mark Kelly in the same week he had to apologize for a racist joke.</div>
-							</div>
-
-							<div class="clearfix" id="more-stories-part">
-								<div id="image">
-									<img src="https://d.newsweek.com/en/full/1638885/ex-iranian-president-mahmoud-ahmadinejad.jpg?w=95&amp;h=95&amp;f=ca203b095a035ba3ac1331815ee09cfb" class="img-fluid" />
-								</div>
-								<h6>Ahmadinejad Talks About Twitter, Told It Was Banned When He Was President</h6>
-								<div class="summary">Former Iranian president Ahmadinejad was also challenged by Radio Free Europe about his human rights record.</div>
-							</div>
-
-							<div class="clearfix" id="more-stories-part">
-								<div id="image">
-									<img src="https://d.newsweek.com/en/full/1638897/former-white-house-comms-director-anthony-scaramucci.jpg?w=95&amp;h=95&amp;f=3075515b08c0528bddae4766db9d114f" class="img-fluid" />
-								</div>
-								<h6>Trump Loses if We 'Chip Away' 3-to-5 Percent of GOP Support: Scaramucci</h6>
-								<div class="summary">The president's former communications director said his old boss had alienated a "tremendous" amount of voters.</div>
-							</div>
-
-							<div class="clearfix" id="more-stories-part">
-								<div id="image">
-									<img src="https://d.newsweek.com/en/full/1638905/solar-minimum.png?w=95&amp;h=95&amp;f=fcaa64e30f3a4d5a04390bbf2a2f41e9"class="img-fluid" />
-								</div>
-								<h6>The Sun Has Been Spotless for 28 Days Straight Despite New Solar Cycle</h6>
-								<div class="summary">Scientists announced the start of Solar Cycle 25, signaling the end of the solar minimum, on September 15.</div>
-							</div>
-
-							<div class="clearfix" id="more-stories-part">
-								<div id="image">
-									<img class="img-fluid" />
-								</div>
-								<h6></h6>
-								<div class="summary"></div>
-							</div>
-						</div>
-					</div>
-
-          <div class="The-Debate col-md-8 col-lg-3 order-3 order-md-2">
-            <div class="container-fluid debate">
-              <div class="title">
-                <a class="mb-5" href="#">The Debate</a>
-              </div>
-              <div class="row debate-img">
-                <img class="col-4 mt-5 " src="https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea" alt="">
-              <div class="debate-text col-8 p-0 align-content-sm-center">
-                <a href="" class="title-debate1 col-8 p-0">The Best (Cyber) Defense Is a Good (Cyber) Offense</a>
-                <div class="debate-author col-8 p-0"><span>By</span><span></span>
-                  Jamil N. Jaffer</div>
-              </div>
-              </div>
-              <div class="c-vs cc_cursor">VS</div>
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1638489/lafayette.jpg?w=397&amp;h=265&amp;q=90&amp;f=4f819f807713f8eded1170346496f538"
+                      alt="Responsive image"
+                    /><span class="pic-on">U.S</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>Trump Admin Wanted to Use 'Heat Ray' on Protesters</h3>
+                  <div class="summary">
+                    A military whistleblower said federal officials asked about
+                    crowd control technology hours before protesters were
+                    forcibly cleared from Lafayette Square in Washington, D.C.
+                  </div>
+                </div>
+                <div class="related">
+                  'Like Opening Up An Oven Door'—Watch 'Heat Ray' Feds Wanted to
+                  Use on Protesters in Action
+                </div>
+              </article>
             </div>
-            <div class="container-fluid debate2">
-              <div class="row debate-img2">
-                <img class="col-4 mt-5 " src="https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea" alt="">
-              <div class="debate-text2 col-8 p-0 align-content-sm-center">
-                <a href="" class="title-debate2 col-8 p-0">The Best (Cyber) Defense Is a Good (Cyber) Offense</a>
-                <div class="debate-author2 col-8 p-0"><span>By</span><span></span>
-                  Jamil N. Jaffer</div>
+          </div>
+
+          <div class="col-md-7 col-lg-6 order-1 order-md-2">
+            <div class="featured">
+              <div class="block-title">TOP STORY</div>
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1638725/nord-stream.jpg?w=591&amp;h=364&amp;f=ecc44f248c53887e12ee903492534091"
+                      alt="Responsive image"
+                    /><span class="pic-on">OPINION</span></a
+                  >
+                </div>
+                <h3>
+                  For the Sake of Transatlantic Security, Stop Nord Stream 2
+                </h3>
+                <div class="summary">
+                  Nord Stream 2 undermines both the Transatlantic relationship
+                  and the idea of European unity. As former and current national
+                  leaders, diplomats, ministers, and experts, we call for the
+                  project to be stopped forthwith.
+                </div>
+              </article>
+            </div>
+            <div class="featured sticky-top">
+              <div class="block-title">MORE STORIES</div>
+              <div class="clearfix" id="more-stories-part">
+                <div id="image">
+                  <img
+                    src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&amp;h=95&amp;f=150feb4010c47e3f031cc05c8fd07ffe"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Obama Book Coming Post-Election Saves Former President
+                  Overshadowing Biden
+                </h6>
+                <div class="summary">
+                  The first volume of the former president's upcoming memoir is
+                  due to be released two weeks after election day.
+                </div>
               </div>
+
+              <div class="clearfix" id="more-stories-part">
+                <div id="image">
+                  <img
+                    class="img-fluid"
+                    src="https://d.newsweek.com/en/full/1638809/cover-bibi-banner.jpg?w=95&amp;h=95&amp;f=07c832e39f44dedf313bb6a1b304c14c"
+                  />
+                </div>
+                <h6>
+                  Trump's Mideast Peace Deals Present Nobel Committee with
+                  Netanyahu Dilemma
+                </h6>
+                <div class="summary">
+                  "The Peace Prize is for peace, not for being a nice guy.
+                  Netanyahu brought peace," says one of the Israeli prime
+                  minister's supporters. Others—including the Palestinians—don't
+                  see it that way.
+                </div>
+              </div>
+
+              <div class="clearfix" id="more-stories-part">
+                <div id="image">
+                  <img
+                    src="https://d.newsweek.com/en/full/1637540/sweden-coronavirus-covid-19-getty.jpg?w=95&amp;h=95&amp;f=cd099ea4df7886ef70cb9d15f0e5c80d"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Sweden Claims Its High Coronavirus Death Toll Is Down to Mild
+                  Flu Seasons
+                </h6>
+                <div class="summary">
+                  Norway's state epidemiologist questioned the idea put forward
+                  by his Swedish counterpart Anders Tegnell.
+                </div>
+              </div>
+
+              <div class="clearfix" id="more-stories-part">
+                <div id="image">
+                  <img
+                    src="https://d.newsweek.com/en/full/1638941/maine-sen-susan-collins.jpg?w=95&amp;h=95&amp;f=55838f8b4fa64c22f7eb53574f8eda33"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  GOP Senate Majority Under Threat As Incumbents Trail in Three
+                  Battlegrounds
+                </h6>
+                <div class="summary">
+                  Arizona Sen. Martha McSally was 8 points behind Democratic
+                  candidate Mark Kelly in the same week he had to apologize for
+                  a racist joke.
+                </div>
+              </div>
+
+              <div class="clearfix" id="more-stories-part">
+                <div id="image">
+                  <img
+                    src="https://d.newsweek.com/en/full/1638885/ex-iranian-president-mahmoud-ahmadinejad.jpg?w=95&amp;h=95&amp;f=ca203b095a035ba3ac1331815ee09cfb"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Ahmadinejad Talks About Twitter, Told It Was Banned When He
+                  Was President
+                </h6>
+                <div class="summary">
+                  Former Iranian president Ahmadinejad was also challenged by
+                  Radio Free Europe about his human rights record.
+                </div>
+              </div>
+
+              <div class="clearfix" id="more-stories-part">
+                <div id="image">
+                  <img
+                    src="https://d.newsweek.com/en/full/1638897/former-white-house-comms-director-anthony-scaramucci.jpg?w=95&amp;h=95&amp;f=3075515b08c0528bddae4766db9d114f"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Trump Loses if We 'Chip Away' 3-to-5 Percent of GOP Support:
+                  Scaramucci
+                </h6>
+                <div class="summary">
+                  The president's former communications director said his old
+                  boss had alienated a "tremendous" amount of voters.
+                </div>
+              </div>
+
+              <div class="clearfix" id="more-stories-part">
+                <div id="image">
+                  <img
+                    src="https://d.newsweek.com/en/full/1638905/solar-minimum.png?w=95&amp;h=95&amp;f=fcaa64e30f3a4d5a04390bbf2a2f41e9"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  The Sun Has Been Spotless for 28 Days Straight Despite New
+                  Solar Cycle
+                </h6>
+                <div class="summary">
+                  Scientists announced the start of Solar Cycle 25, signaling
+                  the end of the solar minimum, on September 15.
+                </div>
+              </div>
+
+              <div class="clearfix" id="more-stories-part">
+                <div id="image">
+                  <img class="img-fluid" />
+                </div>
+                <h6></h6>
+                <div class="summary"></div>
               </div>
             </div>
           </div>
-		</div>
 
-		<script src="script.js"></script>
+          <div class="The-Debate col-md-12 col-lg-3 order-3 order-md-2">
+            <div class="debate">
+              <div class="title mb-2">
+                <a href="#">The Debate</a>
+              </div>
+              <div class="debate-container container-fluid">
+                <div class="debate1">
+                  <div class="row debate-img2 mb-2 mt-3 justify-content-end">
+                    <div class="debate-text col-8">
+                      <a href="" class="title-debate1"
+                        >The Best (Cyber) Defense Is a Good (Cyber) Offense</a
+                      >
+                      <div class="debate-author">
+                        <span>By</span><span></span> Jamil N. Jaffer
+                      </div>
+                    </div>
+                    <img
+                      class="mr-2 img-deb"
+                      src="https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="deco">
+                  <div class="c-vs cc_cursor">VS</div>
+                </div>
+                <div class="debate2">
+                  <div class="row debate-img2 mb-2 mt-3 justify-content-start">
+                    <img
+                      class="ml-2 img-deb"
+                      src="https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
+                      alt=""
+                    />
+                    <div class="debate-text2 col-8">
+                      <a href="" class="title-debate2"
+                        >The Best (Cyber) Defense Is a Good (Cyber) Offense</a
+                      >
+                      <div class="debate-author2">
+                        <span>By</span><span></span> Jamil N. Jaffer
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		<script
-			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-			crossorigin="anonymous"
-		></script>
-	</body>
+    <script src="script.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

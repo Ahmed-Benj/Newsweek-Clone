@@ -18,8 +18,9 @@ a {
   padding: 30px;
 }
 
-/*navigation*/
-/*navigation top*/
+/* navigation */
+
+/* navigation top */
 
 .container-fluid {
   position: relative;
@@ -324,4 +325,91 @@ h6 {
   .content {
     padding-top: 40px;
   }
+}
+
+/* The debate secion */
+
+.debate {
+  margin-top: 1.5rem;
+}
+
+.debate-container {
+  border-bottom: 0.3rem solid #9a9a9a;
+  border-top: 0.3rem solid #9a9a9a;
+}
+
+.title {
+  font-family: var(--main-font);
+}
+
+.title > a {
+  text-decoration: none;
+  color: #9a9a9a;
+  font-weight: 700;
+  line-height: 1.4rem;
+  font-size: 1rem;
+}
+
+.debate-img {
+  align-items: center;
+  padding: 0 0.5rem;
+  font-family: var(--main-font);
+  font-weight: 700;
+  line-height: 1.4rem;
+  font-size: 1rem;
+}
+
+.deco::after {
+  top: 50%;
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.deco::before {
+  top: calc(50% - 2px);
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.debate-img2 {
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 0 0.5rem;
+  font-family: var(--main-font);
+  font-weight: 700;
+  line-height: 1.4rem;
+  font-size: 1rem;
+  justify-content: space-between;
+}
+
+.deco {
+  position: relative;
+}
+
+.c-vs {
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/32px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 6px auto;
+}
+
+.img-deb {
+  height: 63px;
+  width: 63px;
 }
