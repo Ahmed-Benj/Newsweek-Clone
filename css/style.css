@@ -201,6 +201,7 @@ a {
 	line-height: 16px;
 	padding-bottom: 11px;
 	padding-top: 20px;
+	text-transform: uppercase;
 }
 
 article {
@@ -252,12 +253,6 @@ h3 {
 
 /* Col 2 */
 
-#more-stories-part {
-	padding-top: 14px;
-	padding-bottom: 10px;
-	border-top: 1px solid #ddd;
-}
-
 #image {
 	float: left;
 	width: 135px;
@@ -274,26 +269,26 @@ h6 {
 
 /*  The debate secion  */
 
-.debate {
-	margin-top: 1.5rem;
-}
+/* .debate {
+  margin-top: 1.5rem;
+} */
 
 .debate-container {
 	border-bottom: 0.3rem solid #9a9a9a;
 	border-top: 0.3rem solid #9a9a9a;
 }
 
-.title {
-	font-family: var(--main-font);
+/* .title {
+  font-family: var(--main-font);
 }
 
 .title > a {
-	text-decoration: none;
-	color: #9a9a9a;
-	font-weight: 700;
-	line-height: 1.4rem;
-	font-size: 1rem;
-}
+  text-decoration: none;
+  color: #9a9a9a;
+  font-weight: 700;
+  line-height: 1.4rem;
+  font-size: 1rem;
+} */
 
 .debate-img {
 	align-items: center;
@@ -421,6 +416,45 @@ h6 {
 	width: 100%;
 }
 
+.bottom {
+	margin-top: 2rem;
+}
+
+.part-title {
+	font-size: 1rem;
+}
+
+.category {
+	color: #f72210;
+	font-size: 1rem;
+}
+
+.see-all-features {
+	background: #f4f5f6;
+	font-size: 1.125rem;
+}
+
+.magazine-article .category span:first-of-type {
+	padding: 3px 7px;
+	background-color: #f72210;
+	color: #fff;
+	margin-right: 7px;
+}
+
+.mag-cat {
+	height: 2rem;
+}
+
+.cat > a {
+	color: #f72210;
+}
+
+.article-title {
+	font-size: 20px;
+	color: black;
+	font-weight: 700;
+}
+
 @media screen and (max-width: 991px) {
 	.content,
 	.navbottom,
@@ -471,4 +505,49 @@ h6 {
 	.content {
 		padding-top: 40px;
 	}
+}
+
+.section-pick-img {
+	flex: none;
+	margin-right: 15px;
+	width: 95px;
+}
+
+.section-pick-img-1 {
+	height: 64px;
+}
+
+.section-pick-img-2 {
+	height: 95px;
+}
+
+.footer-links {
+	color: #dbdbdb;
+	font-size: 14px;
+	line-height: 2em;
+}
+
+.image-footer {
+	width: 20rem;
+}
+
+.copywrite {
+	font-size: 1.2rem;
+}
+
+.footer-nav-a {
+	color: #7f7f7f;
+	font-size: 1.1rem;
+}
+
+.footer-nav-a:hover {
+	color: #000;
+}
+
+.icon-facebook,
+.icon-twitter,
+.icon-instagram,
+.icon-linkedin {
+	fill: #666;
+	cursor: pointer;
 }
