@@ -1,1694 +1,1694 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no"
-		/>
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<link
-			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-			crossorigin="anonymous"
-		/>
-		<link rel="stylesheet" href="css/style.css" />
-		<link
-			href="//db.onlinewebfonts.com/c/cf4449c1884598b292630aa9f4007c19?family=Roboto+Condensed"
-			rel="stylesheet"
-			type="text/css"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-			integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-			crossorigin="anonymous"
-		/>
-		<link
-			rel="icon"
-			href="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png"
-		/>
-		<title>Newsweek- News, Analysis, Politics, Busine...</title>
-	</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link
+      href="//db.onlinewebfonts.com/c/cf4449c1884598b292630aa9f4007c19?family=Roboto+Condensed"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="icon"
+      href="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png"
+    />
+    <title>Newsweek- News, Analysis, Politics, Busine...</title>
+  </head>
 
-	<body>
-		<div class="fixed-top" id="stickynav">
-			<div class="d-flex justify-content-between navscroll">
-				<div class="p-2"></div>
-				<div class="p-2" id="signin">
-					<span>SIGN IN</span
-					><a href="#" id="signinA"
-						>SUBSCRIBE <i class="fas fa-chevron-right fa-sm"></i
-					></a>
-					<i class="fas fa-bars" id="barsId"></i>
-				</div>
-			</div>
+  <body>
+    <div class="fixed-top" id="stickynav">
+      <div class="d-flex justify-content-between navscroll">
+        <div class="p-2"></div>
+        <div class="p-2" id="signin">
+          <span>SIGN IN</span
+          ><a href="#" id="signinA"
+            >SUBSCRIBE <i class="fas fa-chevron-right fa-sm"></i
+          ></a>
+          <i class="fas fa-bars" id="barsId"></i>
+        </div>
+      </div>
 
-			<div class="logoimg" id="biglogoid">
-				<svg
-					version="1.1"
-					id="Layer_1"
-					xmlns="http://www.w3.org/2000/svg"
-					xmlns:xlink="http://www.w3.org/1999/xlink"
-					x="0px"
-					y="0px"
-					viewBox="0 0 395.6 60"
-					style="enable-background: new 0 0 395.6 60"
-					xml:space="preserve"
-				>
-					<g>
-						<path
-							class="st0"
-							d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
-						></path>
-					</g>
-				</svg>
-			</div>
-		</div>
+      <div class="logoimg" id="biglogoid">
+        <svg
+          version="1.1"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 395.6 60"
+          xml:space="preserve"
+        >
+          <g>
+            <path
+              class="st0"
+              d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+            ></path>
+          </g>
+        </svg>
+      </div>
+    </div>
 
-		<nav class="header-bottom navbottom">
-			<ul class="page-nav">
-				<li><a href="#">U.S.</a></li>
-				<li><a href="#">World</a></li>
-				<li><a href="#">Business</a></li>
-				<li><a href="#">Tech & Science</a></li>
-				<li><a href="#">Culture</a></li>
-				<li><a href="#">Newsgeek</a></li>
-				<li><a href="#">Sports</a></li>
-				<li><a href="#">Health</a></li>
-				<li><a href="#">The Debate</a></li>
-				<li><a href="#">Vantage</a></li>
-				<li><a href="#">Weather</a></li>
-				<li>
-					<a class="mr-2" href="#" id="search">Search</a
-					><a href="" class="search-glass"></a>
-				</li>
-			</ul>
-		</nav>
-		<nav class="header-bottom2 navbottom">
-			<ul class="page-nav2 pt-2">
-				<li><a href="#">TRENDING</a></li>
-				<li><a class="text-secondary" href="#">DONALD TRUMP</a></li>
-				<li><a class="text-secondary" href="#">JOE BIDEN</a></li>
-				<li><a class="text-secondary" href="#">CHINA</a></li>
-				<li><a class="text-secondary" href="#">CORONAVIRUS</a></li>
-				<li><a class="text-secondary" href="#">2020 ELECTION</a></li>
-			</ul>
-		</nav>
+    <nav class="header-bottom navbottom">
+      <ul class="page-nav">
+        <li><a href="#">U.S.</a></li>
+        <li><a href="#">World</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Tech & Science</a></li>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">Newsgeek</a></li>
+        <li><a href="#">Sports</a></li>
+        <li><a href="#">Health</a></li>
+        <li><a href="#">The Debate</a></li>
+        <li><a href="#">Vantage</a></li>
+        <li><a href="#">Weather</a></li>
+        <li>
+          <a class="mr-2" href="#" id="search">Search</a
+          ><a href="" class="search-glass"></a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="header-bottom2 navbottom">
+      <ul class="page-nav2 pt-2">
+        <li><a href="#">TRENDING</a></li>
+        <li><a class="text-secondary" href="#">DONALD TRUMP</a></li>
+        <li><a class="text-secondary" href="#">JOE BIDEN</a></li>
+        <li><a class="text-secondary" href="#">CHINA</a></li>
+        <li><a class="text-secondary" href="#">CORONAVIRUS</a></li>
+        <li><a class="text-secondary" href="#">2020 ELECTION</a></li>
+      </ul>
+    </nav>
 
-		<div class="content">
-			<div class="featured">
-				<div class="row">
-					<div class="col-md-5 col-lg-3 order-2 order-md-1">
-						<div class="featured">
-							<div class="block-title">FEATURED STORIES</div>
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1638617/joe-biden-endorsement-ncpssm.jpg?w=397&h=265&q=90&f=bc5b109d6072e5bec62c4994be1d764f"
-										/><span class="pic-on">U.S</span></a
-									>
-								</div>
-								<div class="article-info">
-									<h3>
-										Fearing for Social Security, National Seniors' Group
-										Endorses Biden
-									</h3>
-									<div class="summary">
-										This is the first time that the National Committee to
-										Preserve Social Security and Medicare (NCPSSM), which was
-										founded by the late son of President Franklin Delano
-										Roosevelt, has ever endorsed a candidate for president.
-									</div>
-								</div>
-							</article>
+    <div class="content">
+      <div class="featured">
+        <div class="row">
+          <div class="col-md-5 col-lg-3 order-2 order-md-1">
+            <div class="featured">
+              <div class="block-title">FEATURED STORIES</div>
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1638617/joe-biden-endorsement-ncpssm.jpg?w=397&h=265&q=90&f=bc5b109d6072e5bec62c4994be1d764f"
+                    /><span class="pic-on">U.S</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Fearing for Social Security, National Seniors' Group
+                    Endorses Biden
+                  </h3>
+                  <div class="summary">
+                    This is the first time that the National Committee to
+                    Preserve Social Security and Medicare (NCPSSM), which was
+                    founded by the late son of President Franklin Delano
+                    Roosevelt, has ever endorsed a candidate for president.
+                  </div>
+                </div>
+              </article>
 
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1638701/daniel-prude-rochester-police-department.jpg?w=397&h=265&q=90&f=0ad2ac05dc88e72e44e4676a483fc4b2"
-										/><span class="pic-on">U.S.</span></a
-									>
-								</div>
-								<div class="article-info">
-									<h3>
-										Rochester Police Wanted to 'Make' Daniel Prude a 'Suspect'
-									</h3>
-									<div class="summary">
-										Someone circled Prude's name with a red pencil and wrote
-										"make him a suspect" on an incident report.
-									</div>
-								</div>
-								<div class="related">
-									Letter to Congress, Trump: Make Colleges Protect Speech
-								</div>
-							</article>
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1638701/daniel-prude-rochester-police-department.jpg?w=397&h=265&q=90&f=0ad2ac05dc88e72e44e4676a483fc4b2"
+                    /><span class="pic-on">U.S.</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Rochester Police Wanted to 'Make' Daniel Prude a 'Suspect'
+                  </h3>
+                  <div class="summary">
+                    Someone circled Prude's name with a red pencil and wrote
+                    "make him a suspect" on an incident report.
+                  </div>
+                </div>
+                <div class="related">
+                  Letter to Congress, Trump: Make Colleges Protect Speech
+                </div>
+              </article>
 
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1638696/voting-arizona.jpg?w=397&amp;h=265&amp;q=90&amp;f=9086ab16983db18d87f14c199e19a8ea"
-										/><span class="pic-on">NEWS</span></a
-									>
-								</div>
-								<div class="article-info">
-									<h3>
-										Economy More Important Than Health Care For 32% Of 3 Swing
-										States' Voters
-									</h3>
-									<div class="summary">
-										Health care ranks as the fourth top issue among voters in
-										the Sun Belt, following the economy, criminal justice and
-										the coronavirus pandemic.
-									</div>
-								</div>
-							</article>
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1638696/voting-arizona.jpg?w=397&amp;h=265&amp;q=90&amp;f=9086ab16983db18d87f14c199e19a8ea"
+                    /><span class="pic-on">NEWS</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Economy More Important Than Health Care For 32% Of 3 Swing
+                    States' Voters
+                  </h3>
+                  <div class="summary">
+                    Health care ranks as the fourth top issue among voters in
+                    the Sun Belt, following the economy, criminal justice and
+                    the coronavirus pandemic.
+                  </div>
+                </div>
+              </article>
 
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1638518/blm-white-protester.jpg?w=397&amp;h=265&amp;q=90&amp;f=5cac0adcbec42d689d1dcda34beecc1b"
-										/><span class="pic-on">U.S.</span></a
-									>
-								</div>
-								<div class="article-info">
-									<h3>
-										Number of White Adults Who Think U.S. Has Race Problem
-										Plummets
-									</h3>
-									<div class="summary">
-										As protests continue across the country against racial
-										injustice and police violence, a new poll shows that the
-										number of overall adults, white adults, and practising
-										Christians who say that race is a problem in the U.S has
-										decreased.
-									</div>
-								</div>
-							</article>
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1638518/blm-white-protester.jpg?w=397&amp;h=265&amp;q=90&amp;f=5cac0adcbec42d689d1dcda34beecc1b"
+                    /><span class="pic-on">U.S.</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>
+                    Number of White Adults Who Think U.S. Has Race Problem
+                    Plummets
+                  </h3>
+                  <div class="summary">
+                    As protests continue across the country against racial
+                    injustice and police violence, a new poll shows that the
+                    number of overall adults, white adults, and practising
+                    Christians who say that race is a problem in the U.S has
+                    decreased.
+                  </div>
+                </div>
+              </article>
 
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1638489/lafayette.jpg?w=397&amp;h=265&amp;q=90&amp;f=4f819f807713f8eded1170346496f538"
-											alt="Responsive image"
-										/><span class="pic-on">U.S</span></a
-									>
-								</div>
-								<div class="article-info">
-									<h3>Trump Admin Wanted to Use 'Heat Ray' on Protesters</h3>
-									<div class="summary">
-										A military whistleblower said federal officials asked about
-										crowd control technology hours before protesters were
-										forcibly cleared from Lafayette Square in Washington, D.C.
-									</div>
-								</div>
-								<div class="related">
-									'Like Opening Up An Oven Door'—Watch 'Heat Ray' Feds Wanted to
-									Use on Protesters in Action
-								</div>
-							</article>
-						</div>
-					</div>
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1638489/lafayette.jpg?w=397&amp;h=265&amp;q=90&amp;f=4f819f807713f8eded1170346496f538"
+                      alt="Responsive image"
+                    /><span class="pic-on">U.S</span></a
+                  >
+                </div>
+                <div class="article-info">
+                  <h3>Trump Admin Wanted to Use 'Heat Ray' on Protesters</h3>
+                  <div class="summary">
+                    A military whistleblower said federal officials asked about
+                    crowd control technology hours before protesters were
+                    forcibly cleared from Lafayette Square in Washington, D.C.
+                  </div>
+                </div>
+                <div class="related">
+                  'Like Opening Up An Oven Door'—Watch 'Heat Ray' Feds Wanted to
+                  Use on Protesters in Action
+                </div>
+              </article>
+            </div>
+          </div>
 
-					<div class="col-md-7 col-lg-6 order-1 order-md-2">
-						<div class="featured">
-							<div class="block-title">TOP STORY</div>
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1638725/nord-stream.jpg?w=591&amp;h=364&amp;f=ecc44f248c53887e12ee903492534091"
-											alt="Responsive image"
-										/><span class="pic-on">OPINION</span></a
-									>
-								</div>
-								<h3>
-									For the Sake of Transatlantic Security, Stop Nord Stream 2
-								</h3>
-								<div class="summary">
-									Nord Stream 2 undermines both the Transatlantic relationship
-									and the idea of European unity. As former and current national
-									leaders, diplomats, ministers, and experts, we call for the
-									project to be stopped forthwith.
-								</div>
-							</article>
-						</div>
-						<div class="featured sticky-top">
-							<div class="block-title">MORE STORIES</div>
-							<div class="clearfix pt-3 pb-2 pt-3 pb-2 border-top">
-								<div id="image">
-									<img
-										src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&amp;h=95&amp;f=150feb4010c47e3f031cc05c8fd07ffe"
-										class="img-fluid"
-									/>
-								</div>
-								<h6>
-									Obama Book Coming Post-Election Saves Former President
-									Overshadowing Biden
-								</h6>
-								<div class="summary">
-									The first volume of the former president's upcoming memoir is
-									due to be released two weeks after election day.
-								</div>
-							</div>
+          <div class="col-md-7 col-lg-6 order-1 order-md-2">
+            <div class="featured">
+              <div class="block-title">TOP STORY</div>
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1638725/nord-stream.jpg?w=591&amp;h=364&amp;f=ecc44f248c53887e12ee903492534091"
+                      alt="Responsive image"
+                    /><span class="pic-on">OPINION</span></a
+                  >
+                </div>
+                <h3>
+                  For the Sake of Transatlantic Security, Stop Nord Stream 2
+                </h3>
+                <div class="summary">
+                  Nord Stream 2 undermines both the Transatlantic relationship
+                  and the idea of European unity. As former and current national
+                  leaders, diplomats, ministers, and experts, we call for the
+                  project to be stopped forthwith.
+                </div>
+              </article>
+            </div>
+            <div class="featured sticky-top">
+              <div class="block-title">MORE STORIES</div>
+              <div class="clearfix pt-3 pb-2 pt-3 pb-2 border-top">
+                <div id="image">
+                  <img
+                    src="https://d.newsweek.com/en/full/1638889/biden-obama.jpg?w=95&amp;h=95&amp;f=150feb4010c47e3f031cc05c8fd07ffe"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Obama Book Coming Post-Election Saves Former President
+                  Overshadowing Biden
+                </h6>
+                <div class="summary">
+                  The first volume of the former president's upcoming memoir is
+                  due to be released two weeks after election day.
+                </div>
+              </div>
 
-							<div class="clearfix pt-3 pb-2 border-top">
-								<div id="image">
-									<img
-										class="img-fluid"
-										src="https://d.newsweek.com/en/full/1638809/cover-bibi-banner.jpg?w=95&amp;h=95&amp;f=07c832e39f44dedf313bb6a1b304c14c"
-									/>
-								</div>
-								<h6>
-									Trump's Mideast Peace Deals Present Nobel Committee with
-									Netanyahu Dilemma
-								</h6>
-								<div class="summary">
-									"The Peace Prize is for peace, not for being a nice guy.
-									Netanyahu brought peace," says one of the Israeli prime
-									minister's supporters. Others—including the Palestinians—don't
-									see it that way.
-								</div>
-							</div>
+              <div class="clearfix pt-3 pb-2 border-top">
+                <div id="image">
+                  <img
+                    class="img-fluid"
+                    src="https://d.newsweek.com/en/full/1638809/cover-bibi-banner.jpg?w=95&amp;h=95&amp;f=07c832e39f44dedf313bb6a1b304c14c"
+                  />
+                </div>
+                <h6>
+                  Trump's Mideast Peace Deals Present Nobel Committee with
+                  Netanyahu Dilemma
+                </h6>
+                <div class="summary">
+                  "The Peace Prize is for peace, not for being a nice guy.
+                  Netanyahu brought peace," says one of the Israeli prime
+                  minister's supporters. Others—including the Palestinians—don't
+                  see it that way.
+                </div>
+              </div>
 
-							<div class="clearfix pt-3 pb-2 border-top">
-								<div id="image">
-									<img
-										src="https://d.newsweek.com/en/full/1637540/sweden-coronavirus-covid-19-getty.jpg?w=95&amp;h=95&amp;f=cd099ea4df7886ef70cb9d15f0e5c80d"
-										class="img-fluid"
-									/>
-								</div>
-								<h6>
-									Sweden Claims Its High Coronavirus Death Toll Is Down to Mild
-									Flu Seasons
-								</h6>
-								<div class="summary">
-									Norway's state epidemiologist questioned the idea put forward
-									by his Swedish counterpart Anders Tegnell.
-								</div>
-							</div>
+              <div class="clearfix pt-3 pb-2 border-top">
+                <div id="image">
+                  <img
+                    src="https://d.newsweek.com/en/full/1637540/sweden-coronavirus-covid-19-getty.jpg?w=95&amp;h=95&amp;f=cd099ea4df7886ef70cb9d15f0e5c80d"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Sweden Claims Its High Coronavirus Death Toll Is Down to Mild
+                  Flu Seasons
+                </h6>
+                <div class="summary">
+                  Norway's state epidemiologist questioned the idea put forward
+                  by his Swedish counterpart Anders Tegnell.
+                </div>
+              </div>
 
-							<div class="clearfix pt-3 pb-2 border-top">
-								<div id="image">
-									<img
-										src="https://d.newsweek.com/en/full/1638941/maine-sen-susan-collins.jpg?w=95&amp;h=95&amp;f=55838f8b4fa64c22f7eb53574f8eda33"
-										class="img-fluid"
-									/>
-								</div>
-								<h6>
-									GOP Senate Majority Under Threat As Incumbents Trail in Three
-									Battlegrounds
-								</h6>
-								<div class="summary">
-									Arizona Sen. Martha McSally was 8 points behind Democratic
-									candidate Mark Kelly in the same week he had to apologize for
-									a racist joke.
-								</div>
-							</div>
+              <div class="clearfix pt-3 pb-2 border-top">
+                <div id="image">
+                  <img
+                    src="https://d.newsweek.com/en/full/1638941/maine-sen-susan-collins.jpg?w=95&amp;h=95&amp;f=55838f8b4fa64c22f7eb53574f8eda33"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  GOP Senate Majority Under Threat As Incumbents Trail in Three
+                  Battlegrounds
+                </h6>
+                <div class="summary">
+                  Arizona Sen. Martha McSally was 8 points behind Democratic
+                  candidate Mark Kelly in the same week he had to apologize for
+                  a racist joke.
+                </div>
+              </div>
 
-							<div class="clearfix pt-3 pb-2 border-top">
-								<div id="image">
-									<img
-										src="https://d.newsweek.com/en/full/1638885/ex-iranian-president-mahmoud-ahmadinejad.jpg?w=95&amp;h=95&amp;f=ca203b095a035ba3ac1331815ee09cfb"
-										class="img-fluid"
-									/>
-								</div>
-								<h6>
-									Ahmadinejad Talks About Twitter, Told It Was Banned When He
-									Was President
-								</h6>
-								<div class="summary">
-									Former Iranian president Ahmadinejad was also challenged by
-									Radio Free Europe about his human rights record.
-								</div>
-							</div>
+              <div class="clearfix pt-3 pb-2 border-top">
+                <div id="image">
+                  <img
+                    src="https://d.newsweek.com/en/full/1638885/ex-iranian-president-mahmoud-ahmadinejad.jpg?w=95&amp;h=95&amp;f=ca203b095a035ba3ac1331815ee09cfb"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Ahmadinejad Talks About Twitter, Told It Was Banned When He
+                  Was President
+                </h6>
+                <div class="summary">
+                  Former Iranian president Ahmadinejad was also challenged by
+                  Radio Free Europe about his human rights record.
+                </div>
+              </div>
 
-							<div class="clearfix">
-								<div id="image">
-									<img
-										src="https://d.newsweek.com/en/full/1638897/former-white-house-comms-director-anthony-scaramucci.jpg?w=95&amp;h=95&amp;f=3075515b08c0528bddae4766db9d114f"
-										class="img-fluid"
-									/>
-								</div>
-								<h6>
-									Trump Loses if We 'Chip Away' 3-to-5 Percent of GOP Support:
-									Scaramucci
-								</h6>
-								<div class="summary">
-									The president's former communications director said his old
-									boss had alienated a "tremendous" amount of voters.
-								</div>
-							</div>
+              <div class="clearfix">
+                <div id="image">
+                  <img
+                    src="https://d.newsweek.com/en/full/1638897/former-white-house-comms-director-anthony-scaramucci.jpg?w=95&amp;h=95&amp;f=3075515b08c0528bddae4766db9d114f"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Trump Loses if We 'Chip Away' 3-to-5 Percent of GOP Support:
+                  Scaramucci
+                </h6>
+                <div class="summary">
+                  The president's former communications director said his old
+                  boss had alienated a "tremendous" amount of voters.
+                </div>
+              </div>
 
-							<div class="clearfix pt-3 pb-2 border-top">
-								<div id="image">
-									<img
-										src="https://d.newsweek.com/en/full/1638905/solar-minimum.png?w=95&amp;h=95&amp;f=fcaa64e30f3a4d5a04390bbf2a2f41e9"
-										class="img-fluid"
-									/>
-								</div>
-								<h6>
-									The Sun Has Been Spotless for 28 Days Straight Despite New
-									Solar Cycle
-								</h6>
-								<div class="summary">
-									Scientists announced the start of Solar Cycle 25, signaling
-									the end of the solar minimum, on September 15.
-								</div>
-							</div>
+              <div class="clearfix pt-3 pb-2 border-top">
+                <div id="image">
+                  <img
+                    src="https://d.newsweek.com/en/full/1638905/solar-minimum.png?w=95&amp;h=95&amp;f=fcaa64e30f3a4d5a04390bbf2a2f41e9"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  The Sun Has Been Spotless for 28 Days Straight Despite New
+                  Solar Cycle
+                </h6>
+                <div class="summary">
+                  Scientists announced the start of Solar Cycle 25, signaling
+                  the end of the solar minimum, on September 15.
+                </div>
+              </div>
 
-							<div class="clearfix pt-3 pb-2 border-top">
-								<div id="image">
-									<img
-										src="https://d.newsweek.com/en/full/1638883/trump-wisconsin-mosinee.jpg?w=95&amp;h=95&amp;f=e855728a64891334bc90b9f798443948"
-										class="img-fluid"
-									/>
-								</div>
-								<h6>
-									In Wisconsin, Where Riots Flared, Trump Tells Rally 'I Saved
-									the Suburbs'
-								</h6>
-								<div class="summary">
-									Wisconsin is a crucial battleground state—one which Trump won
-									only narrowly in 2016—but three recent polls put Democratic
-									presidential hopeful Joe Biden in the lead.
-								</div>
-							</div>
+              <div class="clearfix pt-3 pb-2 border-top">
+                <div id="image">
+                  <img
+                    src="https://d.newsweek.com/en/full/1638883/trump-wisconsin-mosinee.jpg?w=95&amp;h=95&amp;f=e855728a64891334bc90b9f798443948"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  In Wisconsin, Where Riots Flared, Trump Tells Rally 'I Saved
+                  the Suburbs'
+                </h6>
+                <div class="summary">
+                  Wisconsin is a crucial battleground state—one which Trump won
+                  only narrowly in 2016—but three recent polls put Democratic
+                  presidential hopeful Joe Biden in the lead.
+                </div>
+              </div>
 
-							<div class="clearfix pt-3 pb-2 border-top">
-								<div id="image">
-									<img
-										src="https://d.newsweek.com/en/full/1638997/stimulus-check-three-million-unclaimed.jpg?w=95&amp;h=95&amp;f=2ffc4e949a6a9a6957ec0706b98fceb5"
-										class="img-fluid"
-									/>
-								</div>
-								<h6>
-									3 Million People Could Be Eligible for a Stimulus Check in
-									Four States
-								</h6>
-								<div class="summary">
-									People who may be eligible for a payment but have yet to
-									receive one have until October 15 to claim their stimulus
-									check.
-								</div>
-							</div>
+              <div class="clearfix pt-3 pb-2 border-top">
+                <div id="image">
+                  <img
+                    src="https://d.newsweek.com/en/full/1638997/stimulus-check-three-million-unclaimed.jpg?w=95&amp;h=95&amp;f=2ffc4e949a6a9a6957ec0706b98fceb5"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  3 Million People Could Be Eligible for a Stimulus Check in
+                  Four States
+                </h6>
+                <div class="summary">
+                  People who may be eligible for a payment but have yet to
+                  receive one have until October 15 to claim their stimulus
+                  check.
+                </div>
+              </div>
 
-							<div class="clearfix pt-3 pb-2 border-top">
-								<div id="image">
-									<img
-										src="https://d.newsweek.com/en/full/1638893/oregon-fire.jpg?w=95&amp;h=95&amp;l=52&amp;t=58&amp;f=b120eb13cc4a8261a8f6ad23dd465bb8"
-										class="img-fluid"
-									/>
-								</div>
-								<h6>
-									Oregon Fire Map, Update, Storm to Help Firefighters Battle the
-									Blazes
-								</h6>
-								<div class="summary">
-									A storm in the early hours of Friday may help contain the
-									wildfires as Gov. Kate Brown says: "Our firefighters are
-									grateful for rain."
-								</div>
-							</div>
+              <div class="clearfix pt-3 pb-2 border-top">
+                <div id="image">
+                  <img
+                    src="https://d.newsweek.com/en/full/1638893/oregon-fire.jpg?w=95&amp;h=95&amp;l=52&amp;t=58&amp;f=b120eb13cc4a8261a8f6ad23dd465bb8"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  Oregon Fire Map, Update, Storm to Help Firefighters Battle the
+                  Blazes
+                </h6>
+                <div class="summary">
+                  A storm in the early hours of Friday may help contain the
+                  wildfires as Gov. Kate Brown says: "Our firefighters are
+                  grateful for rain."
+                </div>
+              </div>
 
-							<div class="clearfix pt-3 pb-2 border-top">
-								<div id="image">
-									<img
-										src="https://d.newsweek.com/en/full/1639031/north-dakota-flag.jpg?w=95&amp;h=95&amp;f=366aaf2d3422995def81d9e34dce5f3d"
-										class="img-fluid"
-									/>
-								</div>
-								<h6>
-									North Dakota, With No Mask Mandate, Now Has Highest Infection
-									Rate in U.S.
-								</h6>
-								<div class="summary">
-									North Dakota health officials confirmed a new record for
-									active coronavirus cases in the state on Monday, making it the
-									highest rate of infections of any state in the country over
-									this period.
-								</div>
-							</div>
-						</div>
-					</div>
+              <div class="clearfix pt-3 pb-2 border-top">
+                <div id="image">
+                  <img
+                    src="https://d.newsweek.com/en/full/1639031/north-dakota-flag.jpg?w=95&amp;h=95&amp;f=366aaf2d3422995def81d9e34dce5f3d"
+                    class="img-fluid"
+                  />
+                </div>
+                <h6>
+                  North Dakota, With No Mask Mandate, Now Has Highest Infection
+                  Rate in U.S.
+                </h6>
+                <div class="summary">
+                  North Dakota health officials confirmed a new record for
+                  active coronavirus cases in the state on Monday, making it the
+                  highest rate of infections of any state in the country over
+                  this period.
+                </div>
+              </div>
+            </div>
+          </div>
 
-					<div class="The-Debate col-md-12 col-lg-3 order-3 order-md-2">
-						<div class="debate">
-							<div class="block-title">
-								<a href="#">The Debate</a>
-							</div>
-							<div class="debate-container container-fluid">
-								<div class="debate1">
-									<div class="row debate-img2 mb-2 mt-3 justify-content-end">
-										<div class="debate-text col-8">
-											<a href="" class="title-debate1"
-												>The Best (Cyber) Defense Is a Good (Cyber) Offense</a
-											>
-											<div class="debate-author">
-												<span>By</span><span></span> Jamil N. Jaffer
-											</div>
-										</div>
-										<img
-											class="mr-2 img-deb"
-											src="https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
-											alt=""
-										/>
-									</div>
-								</div>
-								<div class="deco">
-									<div class="c-vs cc_cursor">VS</div>
-								</div>
-								<div class="debate2">
-									<div class="row debate-img2 mb-2 mt-3">
-										<img
-											class="ml-2 img-deb"
-											src="https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
-											alt=""
-										/>
-										<div class="debate-text2 col-8">
-											<a href="" class="title-debate2"
-												>The Best (Cyber) Defense Is a Good (Cyber) Offense</a
-											>
-											<div class="debate-author2">
-												<span>By</span><span></span> Jamil N. Jaffer
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-12 col-lg order-3 order-md-2" id="right-col">
-							<div class="featured">
-								<div class="block-title">OPINION</div>
+          <div class="The-Debate col-md-12 col-lg-3 order-3 order-md-2">
+            <div class="debate">
+              <div class="block-title">
+                <a href="#">The Debate</a>
+              </div>
+              <div class="debate-container container-fluid">
+                <div class="debate1">
+                  <div class="row debate-img2 mb-2 mt-3 justify-content-end">
+                    <div class="debate-text col-8">
+                      <a href="" class="title-debate1"
+                        >The Best (Cyber) Defense Is a Good (Cyber) Offense</a
+                      >
+                      <div class="debate-author">
+                        <span>By</span><span></span> Jamil N. Jaffer
+                      </div>
+                    </div>
+                    <img
+                      class="mr-2 img-deb"
+                      src="https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="deco">
+                  <div class="c-vs cc_cursor">VS</div>
+                </div>
+                <div class="debate2">
+                  <div class="row debate-img2 mb-2 mt-3">
+                    <img
+                      class="ml-2 img-deb"
+                      src="https://d.newsweek.com/en/full/1635852/jamil-n-jaffer.png?w=150&h=150&f=ee5b9c2a7934dd91670a659078f9bbea"
+                      alt=""
+                    />
+                    <div class="debate-text2 col-8">
+                      <a href="" class="title-debate2"
+                        >The Best (Cyber) Defense Is a Good (Cyber) Offense</a
+                      >
+                      <div class="debate-author2">
+                        <span>By</span><span></span> Jamil N. Jaffer
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg order-3 order-md-2" id="right-col">
+              <div class="featured">
+                <div class="block-title">OPINION</div>
 
-								<div class="wrap opinion pt-3 pb-3">
-									<div class="row">
-										<div class="col-3 col-md-1 col-lg-3 p-0">
-											<img
-												src="https://d.newsweek.com/en/full/1639104/baker-simks.png?w=63&amp;h=63&amp;f=382ff270c89dcb432796ce3609bfce6a"
-												class="headshot"
-												alt="Responsive image"
-											/>
-										</div>
-										<div class="col-9 ml-md-4 m-lg-0">
-											<div class="info">
-												<a href="#"
-													>No Party Can Rule Forever. Political Empathy is Key
-													to America's Survival</a
-												>
-												<div class="byline text-secondary">
-													By James A. Baker III and David Smick
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
+                <div class="wrap opinion pt-3 pb-3">
+                  <div class="row">
+                    <div class="col-3 col-md-1 col-lg-3 p-0">
+                      <img
+                        src="https://d.newsweek.com/en/full/1639104/baker-simks.png?w=63&amp;h=63&amp;f=382ff270c89dcb432796ce3609bfce6a"
+                        class="headshot"
+                        alt="Responsive image"
+                      />
+                    </div>
+                    <div class="col-9 ml-md-4 m-lg-0">
+                      <div class="info">
+                        <a href="#"
+                          >No Party Can Rule Forever. Political Empathy is Key
+                          to America's Survival</a
+                        >
+                        <div class="byline text-secondary">
+                          By James A. Baker III and David Smick
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-								<div class="wrap opinion pt-3 pb-3">
-									<div class="row">
-										<div class="col-3 col-md-1 col-lg-3 p-0">
-											<img
-												src="https://d.newsweek.com/en/full/1521484/todd-tanner.png?w=63&amp;h=63&amp;f=a0ef19c7a1eb35eca656458aeb09ffb0"
-												class="headshot"
-												alt="Responsive image"
-											/>
-										</div>
-										<div class="col-9 ml-md-4 m-lg-0">
-											<div class="info">
-												<a href="#"
-													>You Don't Have to Be a Democrat to See the Wildfires
-													for What They Are</a
-												>
-												<div class="byline text-secondary">BY TODD TANNER</div>
-											</div>
-										</div>
-									</div>
-								</div>
+                <div class="wrap opinion pt-3 pb-3">
+                  <div class="row">
+                    <div class="col-3 col-md-1 col-lg-3 p-0">
+                      <img
+                        src="https://d.newsweek.com/en/full/1521484/todd-tanner.png?w=63&amp;h=63&amp;f=a0ef19c7a1eb35eca656458aeb09ffb0"
+                        class="headshot"
+                        alt="Responsive image"
+                      />
+                    </div>
+                    <div class="col-9 ml-md-4 m-lg-0">
+                      <div class="info">
+                        <a href="#"
+                          >You Don't Have to Be a Democrat to See the Wildfires
+                          for What They Are</a
+                        >
+                        <div class="byline text-secondary">BY TODD TANNER</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-								<div class="wrap opinion pt-3 pb-3">
-									<div class="row">
-										<div class="col-3 col-md-1 col-lg-3 p-0">
-											<img
-												src="https://d.newsweek.com/en/full/1638718/signatories.png?w=63&amp;h=63&amp;f=5b36b535a88bab76ef4f5a8c7a8e36b5"
-												class="headshot"
-												alt="Responsive image"
-											/>
-										</div>
-										<div class="col-9 ml-md-4 m-lg-0">
-											<div class="info">
-												<a href="#"
-													>For the Sake of Transatlantic Security, Stop Nord
-													Stream 2
-												</a>
-												<div class="byline text-secondary">
-													BY 114 SIGNATORIES
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
+                <div class="wrap opinion pt-3 pb-3">
+                  <div class="row">
+                    <div class="col-3 col-md-1 col-lg-3 p-0">
+                      <img
+                        src="https://d.newsweek.com/en/full/1638718/signatories.png?w=63&amp;h=63&amp;f=5b36b535a88bab76ef4f5a8c7a8e36b5"
+                        class="headshot"
+                        alt="Responsive image"
+                      />
+                    </div>
+                    <div class="col-9 ml-md-4 m-lg-0">
+                      <div class="info">
+                        <a href="#"
+                          >For the Sake of Transatlantic Security, Stop Nord
+                          Stream 2
+                        </a>
+                        <div class="byline text-secondary">
+                          BY 114 SIGNATORIES
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-								<div class="wrap opinion pt-3 pb-3">
-									<div class="row">
-										<div class="col-3 col-md-1 col-lg-3 p-0">
-											<img
-												src="https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&amp;h=63&amp;l=48&amp;t=55&amp;f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77"
-												class="headshot"
-												alt="Responsive image"
-											/>
-										</div>
-										<div class="col-9 ml-md-4 m-lg-0">
-											<div class="info">
-												<a href="#"
-													>Kevin McCarthy and the House Republican Commitment to
-													America</a
-												>
-												<div class="byline text-secondary">
-													BY NEWT GINGRICH
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
+                <div class="wrap opinion pt-3 pb-3">
+                  <div class="row">
+                    <div class="col-3 col-md-1 col-lg-3 p-0">
+                      <img
+                        src="https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&amp;h=63&amp;l=48&amp;t=55&amp;f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77"
+                        class="headshot"
+                        alt="Responsive image"
+                      />
+                    </div>
+                    <div class="col-9 ml-md-4 m-lg-0">
+                      <div class="info">
+                        <a href="#"
+                          >Kevin McCarthy and the House Republican Commitment to
+                          America</a
+                        >
+                        <div class="byline text-secondary">
+                          BY NEWT GINGRICH
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-								<div class="wrap opinion pt-3 pb-3">
-									<div class="row">
-										<div class="col-3 col-md-1 col-lg-3 p-0">
-											<img
-												src="https://d.newsweek.com/en/full/1638730/arthur-lieber.png?w=63&amp;h=63&amp;f=2829405b773522632d441446d6d66d7e"
-												class="headshot"
-												alt="Responsive image"
-											/>
-										</div>
-										<div class="col-9 ml-md-4 m-lg-0">
-											<div class="info">
-												<a href="#"
-													>How the Democratic Party Can Win Back the Trump Base
-												</a>
-												<div class="byline text-secondary">
-													BY ARTHUR LIEBER
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
+                <div class="wrap opinion pt-3 pb-3">
+                  <div class="row">
+                    <div class="col-3 col-md-1 col-lg-3 p-0">
+                      <img
+                        src="https://d.newsweek.com/en/full/1638730/arthur-lieber.png?w=63&amp;h=63&amp;f=2829405b773522632d441446d6d66d7e"
+                        class="headshot"
+                        alt="Responsive image"
+                      />
+                    </div>
+                    <div class="col-9 ml-md-4 m-lg-0">
+                      <div class="info">
+                        <a href="#"
+                          >How the Democratic Party Can Win Back the Trump Base
+                        </a>
+                        <div class="byline text-secondary">
+                          BY ARTHUR LIEBER
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-								<div class="wrap opinion pt-3 pb-3">
-									<div class="row">
-										<div class="col-3 col-md-1 col-lg-3 p-0">
-											<img
-												src="https://d.newsweek.com/en/full/1602706/alan-dershowitz.png?w=63&amp;h=63&amp;f=d83ee0f0a2a958ae747f9793d8d73562"
-												class="headshot"
-												alt="Responsive image"
-											/>
-										</div>
-										<div class="col-9 m-lg-0">
-											<div class="info md-ml-4">
-												<a href="#"
-													>Is the University of Chicago Requiring Loyalty Oaths
-													from its Faculty?</a
-												>
-												<div class="byline text-secondary">
-													BY ALAN DERSHOWITZ
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="sign-up-div mt-4 width-330 cc_cursor">
-							<div
-								class="d-flex icon-title-container align-items-center mt-2 mb-3"
-							>
-								<span class="icon-n"></span>
-								<p class="font-weight-bold m-0 cc_cursor">
-									Start your day with our top 5 articles
-								</p>
-							</div>
-							<form>
-								<input
-									type="email"
-									class="form-control mb-2"
-									placeholder="Email adress"
-								/>
-								<button type="submit" class="btn sign-up text-white">
-									FREE SIGN UP
-								</button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-12 mt-5">
-				<div class="row justify-content-center title-border mb-5 border-bottom">
-					<span class="col-12 icon-n mb-2"></span>
-					<span class="part-title mt-2 font-weight-bold">IN THE MAGAZINE</span>
-				</div>
+                <div class="wrap opinion pt-3 pb-3">
+                  <div class="row">
+                    <div class="col-3 col-md-1 col-lg-3 p-0">
+                      <img
+                        src="https://d.newsweek.com/en/full/1602706/alan-dershowitz.png?w=63&amp;h=63&amp;f=d83ee0f0a2a958ae747f9793d8d73562"
+                        class="headshot"
+                        alt="Responsive image"
+                      />
+                    </div>
+                    <div class="col-9 m-lg-0">
+                      <div class="info md-ml-4">
+                        <a href="#"
+                          >Is the University of Chicago Requiring Loyalty Oaths
+                          from its Faculty?</a
+                        >
+                        <div class="byline text-secondary">
+                          BY ALAN DERSHOWITZ
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sign-up-div mt-4 width-330 cc_cursor">
+              <div
+                class="d-flex icon-title-container align-items-center mt-2 mb-3"
+              >
+                <span class="icon-n"></span>
+                <p class="font-weight-bold m-0 cc_cursor">
+                  Start your day with our top 5 articles
+                </p>
+              </div>
+              <form>
+                <input
+                  type="email"
+                  class="form-control mb-2"
+                  placeholder="Email adress"
+                />
+                <button type="submit" class="btn sign-up text-white">
+                  FREE SIGN UP
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 mt-5">
+        <div class="row justify-content-center title-border mb-5 border-bottom">
+          <span class="col-12 icon-n mb-2"></span>
+          <span class="part-title mt-2 font-weight-bold">IN THE MAGAZINE</span>
+        </div>
 
-				<div class="row">
-					<article class="row col-md-3 magazine-article">
-						<div class="image-article">
-							<img
-								class="fluid-image"
-								src="https://d.newsweek.com/en/full/1638209/cover-september-25-2020.jpg?w=360&amp;h=480&amp;q=90&amp;f=cc57feab77593daf07aa134308d60855"
-								alt=""
-							/>
-						</div>
-						<div class="row">
-							<div class="col-md-12 align-self-center">
-								<div class="wrap">
-									<a><span class="pic-on">September 25 ISSUE</span></a>
-								</div>
-								<p class="see-all-features text-center">See All Features ></p>
-							</div>
-						</div>
-					</article>
+        <div class="row">
+          <article class="row col-md-3 magazine-article">
+            <div class="image-article">
+              <img
+                class="fluid-image"
+                src="https://d.newsweek.com/en/full/1638209/cover-september-25-2020.jpg?w=360&amp;h=480&amp;q=90&amp;f=cc57feab77593daf07aa134308d60855"
+                alt=""
+              />
+            </div>
+            <div class="row">
+              <div class="col-md-12 align-self-center">
+                <div class="wrap">
+                  <a><span class="pic-on">September 25 ISSUE</span></a>
+                </div>
+                <p class="see-all-features text-center">See All Features ></p>
+              </div>
+            </div>
+          </article>
 
-					<article class="col-md-3 magazine-article">
-						<div class="image-article">
-							<img
-								class="fluid-image"
-								src="https://d.newsweek.com/en/full/1635836/fe-vaccines-banner.jpg?w=466&amp;h=311&amp;l=80&amp;t=46&amp;q=90&amp;f=debe687b53fe81d60d7ae5e0128ca718"
-								alt=""
-							/>
-						</div>
-						<div class="category mt-2 mb-2">
-							<span class="mag-cat">Cover</span>
-							<span class="cat"><a href="/us">NEWS</a></span>
-						</div>
-						<h5 class="article-title">
-							When Will There Be a COVID-19 Vaccine and Should You Trust That
-							It's Safe?
-						</h5>
-					</article>
+          <article class="col-md-3 magazine-article">
+            <div class="image-article">
+              <img
+                class="fluid-image"
+                src="https://d.newsweek.com/en/full/1635836/fe-vaccines-banner.jpg?w=466&amp;h=311&amp;l=80&amp;t=46&amp;q=90&amp;f=debe687b53fe81d60d7ae5e0128ca718"
+                alt=""
+              />
+            </div>
+            <div class="category mt-2 mb-2">
+              <span class="mag-cat">Cover</span>
+              <span class="cat"><a href="/us">NEWS</a></span>
+            </div>
+            <h5 class="article-title">
+              When Will There Be a COVID-19 Vaccine and Should You Trust That
+              It's Safe?
+            </h5>
+          </article>
 
-					<article class="col-md-3 magazine-article">
-						<div class="image-article" id="image-article3">
-							<img
-								src="https://d.newsweek.com/en/full/1612946/anthony-fauci-washington-dc-getty.jpg?w=466&amp;h=311&amp;q=90&amp;f=0957fca1e3eb0652c038bd110dace172"
-								alt=""
-							/>
-						</div>
-						<div class="category mt-2 mb-2">
-							<span class="mag-cat">FEATURES</span>
-							<span class="cat"><a href="/us">NEWS</a></span>
-						</div>
-						<h5 class="article-title">
-							Dr. Fauci Would Bet 10 Cents on Trump Having Vaccine by November,
-							December
-						</h5>
-					</article>
-					<article class="col-md-3 magazine-article">
-						<div class="image-article">
-							<img
-								src="https://d.newsweek.com/en/full/1631232/florida-representative-donna-shalala.jpg?w=466&amp;h=311&amp;q=90&amp;f=424705d8de9fc652676b8d64d6326b51"
-							/>
-						</div>
-						<div class="category text-nowrap mt-2 mb-2">
-							<span class="mag-cat">PERISCOPE</span>
-							<span class="cat"><a href="/us">POLITICS</a></span>
-						</div>
-						<h5 class="article-title">
-							Florida Dem Rep Shalala Admits Squad Sometimes Pisses Her Off,
-							Lets Loose on 'Idiotic' Trump
-						</h5>
-					</article>
-				</div>
-			</div>
-			<section class="bottom">
-				<div class="magazine">
-					<div class="row bottom">
-						<article class="col-md-3 magazine-article">
-							<div class="image-article">
-								<img
-									src="https://d.newsweek.com/en/full/1638676/per-young-conservatives-01-142740014jpg.jpg?w=466&amp;h=311&amp;l=5&amp;t=30&amp;q=90&amp;f=020fd864b7ad08ff4dc36e7251df4462"
-									alt=""
-								/>
-							</div>
-							<div class="category mt-2 mb-2 text-nowrap">
-								<span class="mag-cat">PERISCOPE</span>
-								<span class="cat"><a href="/us">CULTURE</a></span>
-							</div>
-							<h5 class="article-title">
-								Here Are the Young, Diverse Conservative Stars Progressives Need
-								to Fear
-							</h5>
-						</article>
-						<article class="col-md-3 magazine-article">
-							<div class="image-article">
-								<img
-									src="https://d.newsweek.com/en/full/1636823/cul-ps-janelle-monae.jpg?w=466&amp;h=311&amp;q=90&amp;f=e21e9535ed00fe89bf74bb5225bc8a1c"
-								/>
-							</div>
-							<div class="category mt-2 mb-2 text-nowrap">
-								<span class="mag-cat">DOWNTIME</span>
-								<span class="cat"><a href="/us">CULTURE</a></span>
-							</div>
-							<h5 class="article-title">
-								Janelle Monáe's Film 'Antebellum' Shows the Horrors of Systemic
-								Racism
-							</h5>
-						</article>
-						<article class="col-md-3 magazine-article">
-							<div class="image-article">
-								<img
-									src="https://d.newsweek.com/en/full/1638671/we-were-warned.jpg?w=480&amp;h=320&amp;q=90&amp;f=b660e84e066bafb63e9300f5db6ce02d"
-									alt=""
-								/>
-							</div>
-							<div class="category mt-2 mb-2">
-								<span class="mag-cat">IN FOCUS</span>
-								<span class="cat"><a href="/us"></a></span>
-							</div>
-							<h5 class="article-title">“WE WERE WARNED”</h5>
-						</article>
-					</div>
-				</div>
-			</section>
-			<section class="editors-pick">
-				<div class="row justify-content-center title-border mb-5 border-bottom">
-					<span class="col-12 icon-n mb-2"></span>
-					<span class="part-title mt-2 font-weight-bold">EDITOR'S PICK</span>
-				</div>
-				<div class="row border-bottom">
-					<article class="col-lg-3 col-md-6">
-						<div class="wrap">
-							<a
-								><img
-									class="img-fluid"
-									src="https://d.newsweek.com/en/full/1639438/biden-clinton.jpg?w=397&h=295&f=2d920efb635a8a1f3c1ee8a1a2f6d1d5"
-								/><span class="pic-on">POLITICS</span></a
-							>
-						</div>
-						<div class="article-info">
-							<h3 class="font-weight-bold h3">
-								Fearing for Social Security, National Seniors' Group Endorses
-								Biden
-							</h3>
-							<div class="summary">
-								While it is easy to compare the two Democratic presidential
-								candidates, pollsters have suggested doing so might not be as
-								simple as a like for like analysis.
-							</div>
-						</div>
-					</article>
-					<article class="col-lg-3 col-md-6">
-						<div class="wrap">
-							<a
-								><img
-									class="img-fluid"
-									src="https://d.newsweek.com/en/full/1639568/rbg-rally-graham.jpg?w=397&h=295&f=a5f72717cf33fa6d7e7813fb1ac1b1ce"
-								/><span class="pic-on">U.S.</span></a
-							>
-						</div>
-						<div class="article-info">
-							<h3 class="font-weight-bold h3">
-								Trump Supporters Clash With Protesters Over Supreme Court
-								Vacancy
-							</h3>
-							<div class="summary">
-								While it is easy to compare the two Democratic presidential
-								candidates, pollsters have suggested doing so might not be as
-								simple as a like for like analysis.
-							</div>
-						</div>
-					</article>
-					<article class="col-lg-3 col-md-6">
-						<div class="wrap">
-							<a
-								><img
-									class="img-fluid"
-									src="https://d.newsweek.com/en/full/1639569/magellanic-penguins.jpg?w=397&h=295&f=e65ec0f574a276c7a4a31b33b0c4a171"
-								/><span class="pic-on">TECH & SCIENCE</span></a
-							>
-						</div>
-						<div class="article-info">
-							<h3 class="font-weight-bold h3">
-								Penguin Found Dead With Whole Face Mask in Its Stomach
-							</h3>
-							<div class="summary">
-								Discarded face masks are frequently being found lying on beaches
-								in Brazil, local marine conservationists have said.
-							</div>
-						</div>
-					</article>
-					<article class="col-lg-3 col-md-6">
-						<div class="wrap">
-							<a
-								><img
-									class="img-fluid"
-									src="https://d.newsweek.com/en/full/1639100/coronavirus-china-getty.jpg?w=397&h=295&f=9e4538f37ac1543071e64f99bfe3bc5e"
-								/><span class="pic-on">HEALTH</span></a
-							>
-						</div>
-						<div class="article-info">
-							<h3 class="font-weight-bold h3">
-								How China Beat Coronavirus Over the Last Six Months
-							</h3>
-							<div class="summary">
-								The country where the virus is thought to have emerged rarely
-								reports daily case counts in the hundreds since the spring. But
-								at what cost?
-							</div>
-						</div>
-					</article>
-					<article class="col-lg-3 col-md-6">
-						<div class="wrap">
-							<a
-								><img
-									class="img-fluid"
-									src="https://d.newsweek.com/en/full/1639509/president-donald-trump-walks-toward-press.jpg?w=397&h=295&f=f2e0422fd0323e2288956f965a4a3efc"
-								/><span class="pic-on">POLITICS</span></a
-							>
-						</div>
-						<div class="article-info">
-							<h3 class="font-weight-bold h3">
-								Trump Says Democrats Are 'Denigrating' Coronavirus Vaccine
-							</h3>
-							<div class="summary">
-								President Trump has claimed a coronavirus vaccine could be
-								available before the election on November 3.
-							</div>
-						</div>
-					</article>
-					<article class="col-lg-3 col-md-6">
-						<div class="wrap">
-							<a
-								><img
-									class="img-fluid"
-									src="https://d.newsweek.com/en/full/1639388/biden.jpg?w=397&h=295&f=3a83c6efec0685c986769e8940ec2b8f"
-								/><span class="pic-on">POLITICS</span></a
-							>
-						</div>
-						<div class="article-info">
-							<h3 class="font-weight-bold h3">
-								Biden 'Approves' Trump Saying 'You'll Never Hear From Me Again'
-								If He Loses
-							</h3>
-							<div class="summary">
-								The president told supporters if Democratic presidential
-								candidate Joe Biden defeats him in November that "I will never
-								speak to you again."
-							</div>
-						</div>
-					</article>
-					<article class="col-lg-3 col-md-6">
-						<div class="wrap">
-							<a
-								><img
-									class="img-fluid"
-									src="https://d.newsweek.com/en/full/1639516/jovita-idar-google-doodle.png?w=397&h=295&f=6e1d47b809860419a3be303de466f1c7"
-								/><span class="pic-on">U.S.</span></a
-							>
-						</div>
-						<div class="article-info">
-							<h3 class="font-weight-bold h3">
-								Who is Jovita Idár? Google Doodle Celebrates Civil Rights
-								Pioneer
-							</h3>
-							<div class="summary">
-								Idár and her family helped establish the First Mexican Congress,
-								which organized Mexican-Americans across Texas in the fight for
-								civil rights.
-							</div>
-						</div>
-					</article>
-					<article class="col-lg-3 col-md-6">
-						<div class="wrap">
-							<a
-								><img
-									class="img-fluid"
-									src="https://d.newsweek.com/en/full/1639496/hurricane-sally-hits-gulf-coast.jpg?w=397&h=295&f=d743cc0974db8cbeb641b5c403872f11"
-								/><span class="pic-on">NEWS</span></a
-							>
-						</div>
-						<div class="article-info">
-							<h3 class="font-weight-bold h3">
-								Florida Woman Swims Away From Hurricane Flood With Grandson On
-								Her Back
-							</h3>
-							<div class="summary">
-								Ceteria Holley said she climbed on top of her dining room table
-								as several feet of water engulfed her home in Pensacola on
-								Wednesday.
-							</div>
-						</div>
-					</article>
-				</div>
-				<div class="section-picks">
-					<div class="block-title">
-						<h3 class="text-danger">U.S.</h3>
-					</div>
-					<div class="row border-bottom mb-3">
-						<div class="col-sm-4">
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1639722/dr-anthony-fauci.jpg?w=397&h=265&f=981ed98fe1d0862b1a7a355c9f69e85e"
-									/></a>
-								</div>
-								<div class="article-info">
-									<h3 class="font-weight-bold h3">
-										Fearing for Social Security, National Seniors' Group
-										Endorses Biden
-									</h3>
-								</div>
-							</article>
-						</div>
-						<div class="col-sm-4">
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1639700/vote-mail-ballots-washington-2020.jpg?w=397&h=265&f=4ca7ab638cc2ea69d2438db315628199"
-									/></a>
-								</div>
-								<div class="article-info">
-									<h3 class="font-weight-bold h3">
-										Fearing for Social Security, National Seniors' Group
-										Endorses Biden
-									</h3>
-								</div>
-							</article>
-						</div>
-						<div class="col-sm-4">
-							<ul class="p-0">
-								<li class="d-flex align-items-center border-bottom mb-3">
-									<div class="mr-auto p-2">
-										<a
-											><img
-												class="section-pick-img section-pick-img-1"
-												src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
-										/></a>
-									</div>
-									<div class="">
-										<h6 class="font-weight-bold h6">
-											Fearing for Social Security, National Seniors' Group
-											Endorses Biden
-										</h6>
-									</div>
-								</li>
-								<li class="d-flex align-items-center border-bottom mb-3">
-									<div class="mr-auto p-2">
-										<a
-											><img
-												class="section-pick-img section-pick-img-2"
-												src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
-										/></a>
-									</div>
-									<div class="">
-										<h6 class="font-weight-bold h6">
-											Fearing for Social Security, National Seniors' Group
-											Endorses Biden
-										</h6>
-									</div>
-								</li>
-								<li class="d-flex align-items-center mb-3">
-									<div class="mr-auto p-2">
-										<a
-											><img
-												class="section-pick-img section-pick-img-2"
-												src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
-										/></a>
-									</div>
-									<div class="">
-										<h6 class="font-weight-bold h6">
-											Fearing for Social Security, National Seniors' Group
-											Endorses Biden
-										</h6>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="block-title">
-						<h3 class="text-danger">U.S.</h3>
-					</div>
-					<div class="row border-bottom mb-3">
-						<div class="col-sm-4">
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1639665/coronavirus-protest-madrid-spain-september-2020.jpg?w=397&h=265&f=fddead8c55b3a0b57d0cb9a250f9b124"
-									/></a>
-								</div>
-								<div class="article-info">
-									<h3 class="font-weight-bold h3">
-										Fearing for Social Security, National Seniors' Group
-										Endorses Biden
-									</h3>
-								</div>
-							</article>
-						</div>
-						<div class="col-sm-4">
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1639835/iran-zarif-internations-atomic-energy-agency.jpg?w=397&h=265&f=8d2c30c2f66c75a0baf2a0582d9ea880"
-									/></a>
-								</div>
-								<div class="article-info">
-									<h3 class="font-weight-bold h3">
-										Fearing for Social Security, National Seniors' Group
-										Endorses Biden
-									</h3>
-								</div>
-							</article>
-						</div>
-						<div class="col-sm-4">
-							<ul class="p-0">
-								<li class="d-flex align-items-center border-bottom mb-3">
-									<div class="mr-auto p-2">
-										<a
-											><img
-												class="section-pick-img section-pick-img-1"
-												src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
-										/></a>
-									</div>
-									<div class="">
-										<h6 class="font-weight-bold h6">
-											Fearing for Social Security, National Seniors' Group
-											Endorses Biden
-										</h6>
-									</div>
-								</li>
-								<li class="d-flex align-items-center border-bottom mb-3">
-									<div class="mr-auto p-2">
-										<a
-											><img
-												class="section-pick-img section-pick-img-2"
-												src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
-										/></a>
-									</div>
-									<div class="">
-										<h6 class="font-weight-bold h6">
-											Fearing for Social Security, National Seniors' Group
-											Endorses Biden
-										</h6>
-									</div>
-								</li>
-								<li class="d-flex align-items-center mb-3">
-									<div class="mr-auto p-2">
-										<a
-											><img
-												class="section-pick-img section-pick-img-2"
-												src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
-										/></a>
-									</div>
-									<div class="">
-										<h6 class="font-weight-bold h6">
-											Fearing for Social Security, National Seniors' Group
-											Endorses Biden
-										</h6>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="block-title">
-						<h3 class="text-danger">U.S.</h3>
-					</div>
-					<div class="row border-bottom mb-3">
-						<div class="col-sm-4">
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1636138/pennsylvania-mask-restrictions-lifted-judge.jpg?w=397&h=265&f=1aea66f5b69aa0da34a1ba0bda41fa45"
-									/></a>
-								</div>
-								<div class="article-info">
-									<h3 class="font-weight-bold h3">
-										Fearing for Social Security, National Seniors' Group
-										Endorses Biden
-									</h3>
-								</div>
-							</article>
-						</div>
-						<div class="col-sm-4">
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1635858/tiktok-sale.jpg?w=397&h=265&f=03de5043f49dc9bc61e7a897d5d78c93"
-									/></a>
-								</div>
-								<div class="article-info">
-									<h3 class="font-weight-bold h3">
-										Fearing for Social Security, National Seniors' Group
-										Endorses Biden
-									</h3>
-								</div>
-							</article>
-						</div>
-						<div class="col-sm-4">
-							<ul class="p-0">
-								<li class="d-flex align-items-center border-bottom mb-3">
-									<div class="mr-auto p-2">
-										<a
-											><img
-												class="section-pick-img section-pick-img-1"
-												src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
-										/></a>
-									</div>
-									<div class="">
-										<h6 class="font-weight-bold h6">
-											Fearing for Social Security, National Seniors' Group
-											Endorses Biden
-										</h6>
-									</div>
-								</li>
-								<li class="d-flex align-items-center border-bottom mb-3">
-									<div class="mr-auto p-2">
-										<a
-											><img
-												class="section-pick-img section-pick-img-2"
-												src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
-										/></a>
-									</div>
-									<div class="">
-										<h6 class="font-weight-bold h6">
-											Fearing for Social Security, National Seniors' Group
-											Endorses Biden
-										</h6>
-									</div>
-								</li>
-								<li class="d-flex align-items-center mb-3">
-									<div class="mr-auto p-2">
-										<a
-											><img
-												class="section-pick-img section-pick-img-2"
-												src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
-										/></a>
-									</div>
-									<div class="">
-										<h6 class="font-weight-bold h6">
-											Fearing for Social Security, National Seniors' Group
-											Endorses Biden
-										</h6>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="block-title">
-						<h3 class="text-danger">U.S.</h3>
-					</div>
-					<div class="row border-bottom mb-3">
-						<div class="col-sm-4">
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1639644/funnel-web-spider.jpg?w=397&h=265&f=20168614353e215e025257d23cf6d193"
-									/></a>
-								</div>
-								<div class="article-info">
-									<h3 class="font-weight-bold h3">
-										Fearing for Social Security, National Seniors' Group
-										Endorses Biden
-									</h3>
-								</div>
-							</article>
-						</div>
-						<div class="col-sm-4">
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1639657/mastodon.jpg?w=397&h=265&f=ee17b2fb58f032af86c67cf07590ea82"
-									/></a>
-								</div>
-								<div class="article-info">
-									<h3 class="font-weight-bold h3">
-										Fearing for Social Security, National Seniors' Group
-										Endorses Biden
-									</h3>
-								</div>
-							</article>
-						</div>
-						<div class="col-sm-4">
-							<ul class="p-0">
-								<li class="d-flex align-items-center border-bottom mb-3">
-									<div class="mr-auto p-2">
-										<a
-											><img
-												class="section-pick-img section-pick-img-1"
-												src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
-										/></a>
-									</div>
-									<div class="">
-										<h6 class="font-weight-bold h6">
-											Fearing for Social Security, National Seniors' Group
-											Endorses Biden
-										</h6>
-									</div>
-								</li>
-								<li class="d-flex align-items-center border-bottom mb-3">
-									<div class="mr-auto p-2">
-										<a
-											><img
-												class="section-pick-img section-pick-img-2"
-												src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
-										/></a>
-									</div>
-									<div class="">
-										<h6 class="font-weight-bold h6">
-											Fearing for Social Security, National Seniors' Group
-											Endorses Biden
-										</h6>
-									</div>
-								</li>
-								<li class="d-flex align-items-center mb-3">
-									<div class="mr-auto p-2">
-										<a
-											><img
-												class="section-pick-img section-pick-img-2"
-												src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
-										/></a>
-									</div>
-									<div class="">
-										<h6 class="font-weight-bold h6">
-											Fearing for Social Security, National Seniors' Group
-											Endorses Biden
-										</h6>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="block-title">
-						<h3 class="text-danger">U.S.</h3>
-					</div>
-					<div class="row border-bottom mb-3">
-						<div class="col-sm-4">
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1639833/vanity-license-plate.jpg?w=397&h=265&f=b1a2838a0ef23105fb24cd4f3dca6624"
-									/></a>
-								</div>
-								<div class="article-info">
-									<h3 class="font-weight-bold h3">
-										Fearing for Social Security, National Seniors' Group
-										Endorses Biden
-									</h3>
-								</div>
-							</article>
-						</div>
-						<div class="col-sm-4">
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1639720/240-years-ago-benedict-arnold-committed-treason.jpg?w=397&h=265&l=56&t=20&f=da12403f6bdd742c1d248d1c05461007"
-									/></a>
-								</div>
-								<div class="article-info">
-									<h3 class="font-weight-bold h3">
-										Fearing for Social Security, National Seniors' Group
-										Endorses Biden
-									</h3>
-								</div>
-							</article>
-						</div>
-						<div class="col-sm-4">
-							<ul class="p-0">
-								<li class="d-flex align-items-center border-bottom mb-3">
-									<div class="mr-auto p-2">
-										<a
-											><img
-												class="section-pick-img section-pick-img-1"
-												src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
-										/></a>
-									</div>
-									<div class="">
-										<h6 class="font-weight-bold h6">
-											Fearing for Social Security, National Seniors' Group
-											Endorses Biden
-										</h6>
-									</div>
-								</li>
-								<li class="d-flex align-items-center border-bottom mb-3">
-									<div class="mr-auto p-2">
-										<a
-											><img
-												class="section-pick-img section-pick-img-2"
-												src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
-										/></a>
-									</div>
-									<div class="">
-										<h6 class="font-weight-bold h6">
-											Fearing for Social Security, National Seniors' Group
-											Endorses Biden
-										</h6>
-									</div>
-								</li>
-								<li class="d-flex align-items-center mb-3">
-									<div class="mr-auto p-2">
-										<a
-											><img
-												class="section-pick-img section-pick-img-2"
-												src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
-										/></a>
-									</div>
-									<div class="">
-										<h6 class="font-weight-bold h6">
-											Fearing for Social Security, National Seniors' Group
-											Endorses Biden
-										</h6>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="block-title">
-						<h3 class="text-danger">U.S.</h3>
-					</div>
-					<div class="row border-bottom mb-3">
-						<div class="col-sm-4">
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1639649/drew-brees-new-orleans-saints.jpg?w=397&h=265&f=71c36a795772478f33cb81d2f6a1fcb6"
-									/></a>
-								</div>
-								<div class="article-info">
-									<h3 class="font-weight-bold h3">
-										Fearing for Social Security, National Seniors' Group
-										Endorses Biden
-									</h3>
-								</div>
-							</article>
-						</div>
-						<div class="col-sm-4">
-							<article>
-								<div class="wrap">
-									<a
-										><img
-											class="img-fluid"
-											src="https://d.newsweek.com/en/full/1547177/nick-saban-alabama-tua-tagovailoa.jpg?w=397&h=265&f=921dd848b160dbc085016b8a9dc03b55"
-									/></a>
-								</div>
-								<div class="article-info">
-									<h3 class="font-weight-bold h3">
-										Fearing for Social Security, National Seniors' Group
-										Endorses Biden
-									</h3>
-								</div>
-							</article>
-						</div>
-						<div class="col-sm-4">
-							<ul class="p-0">
-								<li class="d-flex align-items-center border-bottom mb-3">
-									<div class="mr-auto p-2">
-										<a
-											><img
-												class="section-pick-img section-pick-img-1"
-												src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
-										/></a>
-									</div>
-									<div class="">
-										<h6 class="font-weight-bold h6">
-											Fearing for Social Security, National Seniors' Group
-											Endorses Biden
-										</h6>
-									</div>
-								</li>
-								<li class="d-flex align-items-center border-bottom mb-3">
-									<div class="mr-auto p-2">
-										<a
-											><img
-												class="section-pick-img section-pick-img-2"
-												src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
-										/></a>
-									</div>
-									<div class="">
-										<h6 class="font-weight-bold h6">
-											Fearing for Social Security, National Seniors' Group
-											Endorses Biden
-										</h6>
-									</div>
-								</li>
-								<li class="d-flex align-items-center mb-3">
-									<div class="mr-auto p-2">
-										<a
-											><img
-												class="section-pick-img section-pick-img-2"
-												src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
-										/></a>
-									</div>
-									<div class="">
-										<h6 class="font-weight-bold h6">
-											Fearing for Social Security, National Seniors' Group
-											Endorses Biden
-										</h6>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</section>
-			<footer class="container-fluid mt-5">
-				<div class="footer-top pb-3 border-bottom">
-					<div class="image-footer d-inline-block pr-4">
-						<img src="/img/red-newsweek-logo.png" alt="" />
-					</div>
+          <article class="col-md-3 magazine-article">
+            <div class="image-article" id="image-article3">
+              <img
+                src="https://d.newsweek.com/en/full/1612946/anthony-fauci-washington-dc-getty.jpg?w=466&amp;h=311&amp;q=90&amp;f=0957fca1e3eb0652c038bd110dace172"
+                alt=""
+              />
+            </div>
+            <div class="category mt-2 mb-2">
+              <span class="mag-cat">FEATURES</span>
+              <span class="cat"><a href="/us">NEWS</a></span>
+            </div>
+            <h5 class="article-title">
+              Dr. Fauci Would Bet 10 Cents on Trump Having Vaccine by November,
+              December
+            </h5>
+          </article>
+          <article class="col-md-3 magazine-article">
+            <div class="image-article">
+              <img
+                src="https://d.newsweek.com/en/full/1631232/florida-representative-donna-shalala.jpg?w=466&amp;h=311&amp;q=90&amp;f=424705d8de9fc652676b8d64d6326b51"
+              />
+            </div>
+            <div class="category text-nowrap mt-2 mb-2">
+              <span class="mag-cat">PERISCOPE</span>
+              <span class="cat"><a href="/us">POLITICS</a></span>
+            </div>
+            <h5 class="article-title">
+              Florida Dem Rep Shalala Admits Squad Sometimes Pisses Her Off,
+              Lets Loose on 'Idiotic' Trump
+            </h5>
+          </article>
+        </div>
+      </div>
+      <section class="bottom">
+        <div class="magazine">
+          <div class="row bottom">
+            <article class="col-md-3 magazine-article">
+              <div class="image-article">
+                <img
+                  src="https://d.newsweek.com/en/full/1638676/per-young-conservatives-01-142740014jpg.jpg?w=466&amp;h=311&amp;l=5&amp;t=30&amp;q=90&amp;f=020fd864b7ad08ff4dc36e7251df4462"
+                  alt=""
+                />
+              </div>
+              <div class="category mt-2 mb-2 text-nowrap">
+                <span class="mag-cat">PERISCOPE</span>
+                <span class="cat"><a href="/us">CULTURE</a></span>
+              </div>
+              <h5 class="article-title">
+                Here Are the Young, Diverse Conservative Stars Progressives Need
+                to Fear
+              </h5>
+            </article>
+            <article class="col-md-3 magazine-article">
+              <div class="image-article">
+                <img
+                  src="https://d.newsweek.com/en/full/1636823/cul-ps-janelle-monae.jpg?w=466&amp;h=311&amp;q=90&amp;f=e21e9535ed00fe89bf74bb5225bc8a1c"
+                />
+              </div>
+              <div class="category mt-2 mb-2 text-nowrap">
+                <span class="mag-cat">DOWNTIME</span>
+                <span class="cat"><a href="/us">CULTURE</a></span>
+              </div>
+              <h5 class="article-title">
+                Janelle Monáe's Film 'Antebellum' Shows the Horrors of Systemic
+                Racism
+              </h5>
+            </article>
+            <article class="col-md-3 magazine-article">
+              <div class="image-article">
+                <img
+                  src="https://d.newsweek.com/en/full/1638671/we-were-warned.jpg?w=480&amp;h=320&amp;q=90&amp;f=b660e84e066bafb63e9300f5db6ce02d"
+                  alt=""
+                />
+              </div>
+              <div class="category mt-2 mb-2">
+                <span class="mag-cat">IN FOCUS</span>
+                <span class="cat"><a href="/us"></a></span>
+              </div>
+              <h5 class="article-title">“WE WERE WARNED”</h5>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="editors-pick">
+        <div class="row justify-content-center title-border mb-5 border-bottom">
+          <span class="col-12 icon-n mb-2"></span>
+          <span class="part-title mt-2 font-weight-bold">EDITOR'S PICK</span>
+        </div>
+        <div class="row border-bottom">
+          <article class="col-lg-3 col-md-6">
+            <div class="wrap">
+              <a
+                ><img
+                  class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1639438/biden-clinton.jpg?w=397&h=295&f=2d920efb635a8a1f3c1ee8a1a2f6d1d5"
+                /><span class="pic-on">POLITICS</span></a
+              >
+            </div>
+            <div class="article-info">
+              <h3 class="font-weight-bold h3">
+                Fearing for Social Security, National Seniors' Group Endorses
+                Biden
+              </h3>
+              <div class="summary">
+                While it is easy to compare the two Democratic presidential
+                candidates, pollsters have suggested doing so might not be as
+                simple as a like for like analysis.
+              </div>
+            </div>
+          </article>
+          <article class="col-lg-3 col-md-6">
+            <div class="wrap">
+              <a
+                ><img
+                  class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1639568/rbg-rally-graham.jpg?w=397&h=295&f=a5f72717cf33fa6d7e7813fb1ac1b1ce"
+                /><span class="pic-on">U.S.</span></a
+              >
+            </div>
+            <div class="article-info">
+              <h3 class="font-weight-bold h3">
+                Trump Supporters Clash With Protesters Over Supreme Court
+                Vacancy
+              </h3>
+              <div class="summary">
+                While it is easy to compare the two Democratic presidential
+                candidates, pollsters have suggested doing so might not be as
+                simple as a like for like analysis.
+              </div>
+            </div>
+          </article>
+          <article class="col-lg-3 col-md-6">
+            <div class="wrap">
+              <a
+                ><img
+                  class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1639569/magellanic-penguins.jpg?w=397&h=295&f=e65ec0f574a276c7a4a31b33b0c4a171"
+                /><span class="pic-on">TECH & SCIENCE</span></a
+              >
+            </div>
+            <div class="article-info">
+              <h3 class="font-weight-bold h3">
+                Penguin Found Dead With Whole Face Mask in Its Stomach
+              </h3>
+              <div class="summary">
+                Discarded face masks are frequently being found lying on beaches
+                in Brazil, local marine conservationists have said.
+              </div>
+            </div>
+          </article>
+          <article class="col-lg-3 col-md-6">
+            <div class="wrap">
+              <a
+                ><img
+                  class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1639100/coronavirus-china-getty.jpg?w=397&h=295&f=9e4538f37ac1543071e64f99bfe3bc5e"
+                /><span class="pic-on">HEALTH</span></a
+              >
+            </div>
+            <div class="article-info">
+              <h3 class="font-weight-bold h3">
+                How China Beat Coronavirus Over the Last Six Months
+              </h3>
+              <div class="summary">
+                The country where the virus is thought to have emerged rarely
+                reports daily case counts in the hundreds since the spring. But
+                at what cost?
+              </div>
+            </div>
+          </article>
+          <article class="col-lg-3 col-md-6">
+            <div class="wrap">
+              <a
+                ><img
+                  class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1639509/president-donald-trump-walks-toward-press.jpg?w=397&h=295&f=f2e0422fd0323e2288956f965a4a3efc"
+                /><span class="pic-on">POLITICS</span></a
+              >
+            </div>
+            <div class="article-info">
+              <h3 class="font-weight-bold h3">
+                Trump Says Democrats Are 'Denigrating' Coronavirus Vaccine
+              </h3>
+              <div class="summary">
+                President Trump has claimed a coronavirus vaccine could be
+                available before the election on November 3.
+              </div>
+            </div>
+          </article>
+          <article class="col-lg-3 col-md-6">
+            <div class="wrap">
+              <a
+                ><img
+                  class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1639388/biden.jpg?w=397&h=295&f=3a83c6efec0685c986769e8940ec2b8f"
+                /><span class="pic-on">POLITICS</span></a
+              >
+            </div>
+            <div class="article-info">
+              <h3 class="font-weight-bold h3">
+                Biden 'Approves' Trump Saying 'You'll Never Hear From Me Again'
+                If He Loses
+              </h3>
+              <div class="summary">
+                The president told supporters if Democratic presidential
+                candidate Joe Biden defeats him in November that "I will never
+                speak to you again."
+              </div>
+            </div>
+          </article>
+          <article class="col-lg-3 col-md-6">
+            <div class="wrap">
+              <a
+                ><img
+                  class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1639516/jovita-idar-google-doodle.png?w=397&h=295&f=6e1d47b809860419a3be303de466f1c7"
+                /><span class="pic-on">U.S.</span></a
+              >
+            </div>
+            <div class="article-info">
+              <h3 class="font-weight-bold h3">
+                Who is Jovita Idár? Google Doodle Celebrates Civil Rights
+                Pioneer
+              </h3>
+              <div class="summary">
+                Idár and her family helped establish the First Mexican Congress,
+                which organized Mexican-Americans across Texas in the fight for
+                civil rights.
+              </div>
+            </div>
+          </article>
+          <article class="col-lg-3 col-md-6">
+            <div class="wrap">
+              <a
+                ><img
+                  class="img-fluid"
+                  src="https://d.newsweek.com/en/full/1639496/hurricane-sally-hits-gulf-coast.jpg?w=397&h=295&f=d743cc0974db8cbeb641b5c403872f11"
+                /><span class="pic-on">NEWS</span></a
+              >
+            </div>
+            <div class="article-info">
+              <h3 class="font-weight-bold h3">
+                Florida Woman Swims Away From Hurricane Flood With Grandson On
+                Her Back
+              </h3>
+              <div class="summary">
+                Ceteria Holley said she climbed on top of her dining room table
+                as several feet of water engulfed her home in Pensacola on
+                Wednesday.
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="section-picks">
+          <div class="block-title">
+            <h3 class="text-danger">U.S.</h3>
+          </div>
+          <div class="row border-bottom mb-3">
+            <div class="col-sm-4">
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1639722/dr-anthony-fauci.jpg?w=397&h=265&f=981ed98fe1d0862b1a7a355c9f69e85e"
+                  /></a>
+                </div>
+                <div class="article-info">
+                  <h3 class="font-weight-bold h3">
+                    Fearing for Social Security, National Seniors' Group
+                    Endorses Biden
+                  </h3>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-4">
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1639700/vote-mail-ballots-washington-2020.jpg?w=397&h=265&f=4ca7ab638cc2ea69d2438db315628199"
+                  /></a>
+                </div>
+                <div class="article-info">
+                  <h3 class="font-weight-bold h3">
+                    Fearing for Social Security, National Seniors' Group
+                    Endorses Biden
+                  </h3>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-4">
+              <ul class="p-0">
+                <li class="d-flex align-items-center border-bottom mb-3">
+                  <div class="mr-auto p-2">
+                    <a
+                      ><img
+                        class="section-pick-img section-pick-img-1"
+                        src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
+                    /></a>
+                  </div>
+                  <div class="">
+                    <h6 class="font-weight-bold h6">
+                      Fearing for Social Security, National Seniors' Group
+                      Endorses Biden
+                    </h6>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center border-bottom mb-3">
+                  <div class="mr-auto p-2">
+                    <a
+                      ><img
+                        class="section-pick-img section-pick-img-2"
+                        src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
+                    /></a>
+                  </div>
+                  <div class="">
+                    <h6 class="font-weight-bold h6">
+                      Fearing for Social Security, National Seniors' Group
+                      Endorses Biden
+                    </h6>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <div class="mr-auto p-2">
+                    <a
+                      ><img
+                        class="section-pick-img section-pick-img-2"
+                        src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
+                    /></a>
+                  </div>
+                  <div class="">
+                    <h6 class="font-weight-bold h6">
+                      Fearing for Social Security, National Seniors' Group
+                      Endorses Biden
+                    </h6>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="block-title">
+            <h3 class="text-danger">U.S.</h3>
+          </div>
+          <div class="row border-bottom mb-3">
+            <div class="col-sm-4">
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1639665/coronavirus-protest-madrid-spain-september-2020.jpg?w=397&h=265&f=fddead8c55b3a0b57d0cb9a250f9b124"
+                  /></a>
+                </div>
+                <div class="article-info">
+                  <h3 class="font-weight-bold h3">
+                    Fearing for Social Security, National Seniors' Group
+                    Endorses Biden
+                  </h3>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-4">
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1639835/iran-zarif-internations-atomic-energy-agency.jpg?w=397&h=265&f=8d2c30c2f66c75a0baf2a0582d9ea880"
+                  /></a>
+                </div>
+                <div class="article-info">
+                  <h3 class="font-weight-bold h3">
+                    Fearing for Social Security, National Seniors' Group
+                    Endorses Biden
+                  </h3>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-4">
+              <ul class="p-0">
+                <li class="d-flex align-items-center border-bottom mb-3">
+                  <div class="mr-auto p-2">
+                    <a
+                      ><img
+                        class="section-pick-img section-pick-img-1"
+                        src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
+                    /></a>
+                  </div>
+                  <div class="">
+                    <h6 class="font-weight-bold h6">
+                      Fearing for Social Security, National Seniors' Group
+                      Endorses Biden
+                    </h6>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center border-bottom mb-3">
+                  <div class="mr-auto p-2">
+                    <a
+                      ><img
+                        class="section-pick-img section-pick-img-2"
+                        src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
+                    /></a>
+                  </div>
+                  <div class="">
+                    <h6 class="font-weight-bold h6">
+                      Fearing for Social Security, National Seniors' Group
+                      Endorses Biden
+                    </h6>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <div class="mr-auto p-2">
+                    <a
+                      ><img
+                        class="section-pick-img section-pick-img-2"
+                        src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
+                    /></a>
+                  </div>
+                  <div class="">
+                    <h6 class="font-weight-bold h6">
+                      Fearing for Social Security, National Seniors' Group
+                      Endorses Biden
+                    </h6>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="block-title">
+            <h3 class="text-danger">U.S.</h3>
+          </div>
+          <div class="row border-bottom mb-3">
+            <div class="col-sm-4">
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1636138/pennsylvania-mask-restrictions-lifted-judge.jpg?w=397&h=265&f=1aea66f5b69aa0da34a1ba0bda41fa45"
+                  /></a>
+                </div>
+                <div class="article-info">
+                  <h3 class="font-weight-bold h3">
+                    Fearing for Social Security, National Seniors' Group
+                    Endorses Biden
+                  </h3>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-4">
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1635858/tiktok-sale.jpg?w=397&h=265&f=03de5043f49dc9bc61e7a897d5d78c93"
+                  /></a>
+                </div>
+                <div class="article-info">
+                  <h3 class="font-weight-bold h3">
+                    Fearing for Social Security, National Seniors' Group
+                    Endorses Biden
+                  </h3>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-4">
+              <ul class="p-0">
+                <li class="d-flex align-items-center border-bottom mb-3">
+                  <div class="mr-auto p-2">
+                    <a
+                      ><img
+                        class="section-pick-img section-pick-img-1"
+                        src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
+                    /></a>
+                  </div>
+                  <div class="">
+                    <h6 class="font-weight-bold h6">
+                      Fearing for Social Security, National Seniors' Group
+                      Endorses Biden
+                    </h6>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center border-bottom mb-3">
+                  <div class="mr-auto p-2">
+                    <a
+                      ><img
+                        class="section-pick-img section-pick-img-2"
+                        src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
+                    /></a>
+                  </div>
+                  <div class="">
+                    <h6 class="font-weight-bold h6">
+                      Fearing for Social Security, National Seniors' Group
+                      Endorses Biden
+                    </h6>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <div class="mr-auto p-2">
+                    <a
+                      ><img
+                        class="section-pick-img section-pick-img-2"
+                        src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
+                    /></a>
+                  </div>
+                  <div class="">
+                    <h6 class="font-weight-bold h6">
+                      Fearing for Social Security, National Seniors' Group
+                      Endorses Biden
+                    </h6>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="block-title">
+            <h3 class="text-danger">U.S.</h3>
+          </div>
+          <div class="row border-bottom mb-3">
+            <div class="col-sm-4">
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1639644/funnel-web-spider.jpg?w=397&h=265&f=20168614353e215e025257d23cf6d193"
+                  /></a>
+                </div>
+                <div class="article-info">
+                  <h3 class="font-weight-bold h3">
+                    Fearing for Social Security, National Seniors' Group
+                    Endorses Biden
+                  </h3>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-4">
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1639657/mastodon.jpg?w=397&h=265&f=ee17b2fb58f032af86c67cf07590ea82"
+                  /></a>
+                </div>
+                <div class="article-info">
+                  <h3 class="font-weight-bold h3">
+                    Fearing for Social Security, National Seniors' Group
+                    Endorses Biden
+                  </h3>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-4">
+              <ul class="p-0">
+                <li class="d-flex align-items-center border-bottom mb-3">
+                  <div class="mr-auto p-2">
+                    <a
+                      ><img
+                        class="section-pick-img section-pick-img-1"
+                        src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
+                    /></a>
+                  </div>
+                  <div class="">
+                    <h6 class="font-weight-bold h6">
+                      Fearing for Social Security, National Seniors' Group
+                      Endorses Biden
+                    </h6>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center border-bottom mb-3">
+                  <div class="mr-auto p-2">
+                    <a
+                      ><img
+                        class="section-pick-img section-pick-img-2"
+                        src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
+                    /></a>
+                  </div>
+                  <div class="">
+                    <h6 class="font-weight-bold h6">
+                      Fearing for Social Security, National Seniors' Group
+                      Endorses Biden
+                    </h6>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <div class="mr-auto p-2">
+                    <a
+                      ><img
+                        class="section-pick-img section-pick-img-2"
+                        src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
+                    /></a>
+                  </div>
+                  <div class="">
+                    <h6 class="font-weight-bold h6">
+                      Fearing for Social Security, National Seniors' Group
+                      Endorses Biden
+                    </h6>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="block-title">
+            <h3 class="text-danger">U.S.</h3>
+          </div>
+          <div class="row border-bottom mb-3">
+            <div class="col-sm-4">
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1639833/vanity-license-plate.jpg?w=397&h=265&f=b1a2838a0ef23105fb24cd4f3dca6624"
+                  /></a>
+                </div>
+                <div class="article-info">
+                  <h3 class="font-weight-bold h3">
+                    Fearing for Social Security, National Seniors' Group
+                    Endorses Biden
+                  </h3>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-4">
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1639720/240-years-ago-benedict-arnold-committed-treason.jpg?w=397&h=265&l=56&t=20&f=da12403f6bdd742c1d248d1c05461007"
+                  /></a>
+                </div>
+                <div class="article-info">
+                  <h3 class="font-weight-bold h3">
+                    Fearing for Social Security, National Seniors' Group
+                    Endorses Biden
+                  </h3>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-4">
+              <ul class="p-0">
+                <li class="d-flex align-items-center border-bottom mb-3">
+                  <div class="mr-auto p-2">
+                    <a
+                      ><img
+                        class="section-pick-img section-pick-img-1"
+                        src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
+                    /></a>
+                  </div>
+                  <div class="">
+                    <h6 class="font-weight-bold h6">
+                      Fearing for Social Security, National Seniors' Group
+                      Endorses Biden
+                    </h6>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center border-bottom mb-3">
+                  <div class="mr-auto p-2">
+                    <a
+                      ><img
+                        class="section-pick-img section-pick-img-2"
+                        src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
+                    /></a>
+                  </div>
+                  <div class="">
+                    <h6 class="font-weight-bold h6">
+                      Fearing for Social Security, National Seniors' Group
+                      Endorses Biden
+                    </h6>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <div class="mr-auto p-2">
+                    <a
+                      ><img
+                        class="section-pick-img section-pick-img-2"
+                        src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
+                    /></a>
+                  </div>
+                  <div class="">
+                    <h6 class="font-weight-bold h6">
+                      Fearing for Social Security, National Seniors' Group
+                      Endorses Biden
+                    </h6>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="block-title">
+            <h3 class="text-danger">U.S.</h3>
+          </div>
+          <div class="row border-bottom mb-3">
+            <div class="col-sm-4">
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1639649/drew-brees-new-orleans-saints.jpg?w=397&h=265&f=71c36a795772478f33cb81d2f6a1fcb6"
+                  /></a>
+                </div>
+                <div class="article-info">
+                  <h3 class="font-weight-bold h3">
+                    Fearing for Social Security, National Seniors' Group
+                    Endorses Biden
+                  </h3>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-4">
+              <article>
+                <div class="wrap">
+                  <a
+                    ><img
+                      class="img-fluid"
+                      src="https://d.newsweek.com/en/full/1547177/nick-saban-alabama-tua-tagovailoa.jpg?w=397&h=265&f=921dd848b160dbc085016b8a9dc03b55"
+                  /></a>
+                </div>
+                <div class="article-info">
+                  <h3 class="font-weight-bold h3">
+                    Fearing for Social Security, National Seniors' Group
+                    Endorses Biden
+                  </h3>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-4">
+              <ul class="p-0">
+                <li class="d-flex align-items-center border-bottom mb-3">
+                  <div class="mr-auto p-2">
+                    <a
+                      ><img
+                        class="section-pick-img section-pick-img-1"
+                        src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
+                    /></a>
+                  </div>
+                  <div class="">
+                    <h6 class="font-weight-bold h6">
+                      Fearing for Social Security, National Seniors' Group
+                      Endorses Biden
+                    </h6>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center border-bottom mb-3">
+                  <div class="mr-auto p-2">
+                    <a
+                      ><img
+                        class="section-pick-img section-pick-img-2"
+                        src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
+                    /></a>
+                  </div>
+                  <div class="">
+                    <h6 class="font-weight-bold h6">
+                      Fearing for Social Security, National Seniors' Group
+                      Endorses Biden
+                    </h6>
+                  </div>
+                </li>
+                <li class="d-flex align-items-center mb-3">
+                  <div class="mr-auto p-2">
+                    <a
+                      ><img
+                        class="section-pick-img section-pick-img-2"
+                        src="https://d.newsweek.com/en/full/1639530/boris-johnson.jpg?w=397&h=265&f=a363f3cf1ff631b90e4bf56b2c81cb4b	"
+                    /></a>
+                  </div>
+                  <div class="">
+                    <h6 class="font-weight-bold h6">
+                      Fearing for Social Security, National Seniors' Group
+                      Endorses Biden
+                    </h6>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="container-fluid mt-5">
+        <div class="footer-top pb-3 border-bottom">
+          <div class="image-footer d-inline-block pr-4">
+            <img src="/assets/img/red-newsweek-logo.png" alt="" />
+          </div>
 
-					<div class="copywrite d-md-inline-block align-bottom mt-2">
-						© 2020 NEWSWEEK
-					</div>
-					<div class="d-md-none footer-social-icons mt-3">
-						<ul>
-							<li class="d-inline-block icon-facebook">
-								<svg
-									width="24"
-									height="24"
-									viewBox="0 0 1000 1000"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<path
-										d="M 75 0C 75 0 75 0 75 0C 33 0 0 33 0 75C 0 75 0 925 0 925C 0 967 33 1000 75 1000C 75 1000 925 1000 925 1000C 967 1000 1000 967 1000 925C 1000 925 1000 75 1000 75C 1000 33 967 0 925 0C 925 0 75 0 75 0 M 690 1000C 690 1000 534 1000 534 1000C 534 1000 534 613 534 613C 534 613 404 613 404 613C 404 613 404 462 404 462C 404 462 534 462 534 462C 534 462 534 350 534 350C 534 221 613 151 729 151C 784 151 831 155 845 157C 845 157 845 292 845 292C 845 292 765 292 765 292C 702 292 690 322 690 365C 690 365 690 462 690 462C 690 462 840 462 840 462C 840 462 820 613 820 613C 820 613 690 613 690 613C 690 613 690 1000 690 1000"
-									/>
-								</svg>
-							</li>
-							<li class="d-inline-block icon-twitter">
-								<svg
-									width="24"
-									height="24"
-									viewBox="0 0 1000 1000"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<path
-										d="M 342 828C 252 828 163 802 88 754C 175 764 265 739 333 685C 266 685 203 640 181 577C 188 566 232 579 253 568C 178 554 119 482 121 406C 140 412 170 426 196 424C 124 379 100 276 144 204C 227 306 354 371 485 376C 474 330 484 278 513 240C 564 169 672 152 741 204C 774 247 827 205 865 189C 873 206 830 262 799 277C 829 274 859 266 888 254C 886 271 839 317 811 337C 816 452 777 568 705 658C 619 768 480 830 342 828"
-									/>
-								</svg>
-							</li>
-							<li class="d-inline-block icon-instagram">
-								<svg
-									width="24"
-									height="24"
-									viewBox="0 0 1000 1000"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<path
-										d="M 503 25C 631 25 647 26 697 28C 748 30 782 38 812 50C 843 62 870 78 896 105C 922 131 938 157 950 188C 962 218 970 253 972 303C 975 353 975 369 975 498C 975 626 975 642 972 693C 970 743 962 777 950 807C 938 838 922 865 896 891C 870 917 843 934 812 946C 782 957 748 965 698 968C 647 970 631 970 503 970C 374 970 358 970 308 968C 257 965 223 957 193 946C 162 934 136 917 109 891C 83 865 67 838 55 807C 43 777 35 743 33 693C 31 642 30 626 30 498C 30 369 31 353 33 303C 35 253 43 218 55 188C 67 157 83 131 109 105C 136 78 162 62 193 50C 223 38 258 30 308 28C 358 26 374 25 503 25C 503 25 503 25 503 25M 460 110C 372 110 355 111 312 113C 266 115 241 123 224 129C 202 138 186 148 170 165C 153 181 143 197 134 219C 128 236 120 261 118 307C 116 356 115 371 115 498C 115 624 116 639 118 689C 120 735 128 760 134 776C 143 798 153 814 170 831C 186 847 202 857 224 866C 241 872 266 880 312 882C 362 885 377 885 503 885C 629 885 644 885 694 882C 740 880 765 873 781 866C 804 857 819 847 836 831C 852 814 863 798 871 776C 878 760 885 735 887 689C 890 639 890 624 890 498C 890 372 890 357 887 307C 885 261 878 236 871 219C 863 197 852 181 836 165C 819 148 804 138 781 129C 765 123 740 115 694 113C 644 111 629 110 503 110C 487 110 473 110 460 110C 460 110 460 110 460 110M 755 189C 786 189 812 214 812 246C 812 277 786 302 755 302C 724 302 698 277 698 246C 698 214 724 189 755 189C 755 189 755 189 755 189M 503 255C 637 255 745 364 745 498C 745 632 637 740 503 740C 369 740 260 632 260 498C 260 364 369 255 503 255C 503 255 503 255 503 255M 345 498C 345 585 416 655 503 655C 590 655 660 585 660 498C 660 411 590 340 503 340C 416 340 345 411 345 498C 345 498 345 498 345 498"
-									/>
-								</svg>
-							</li>
-							<li class="d-inline-block icon-linkedin">
-								<svg
-									width="24"
-									height="24"
-									viewBox="0 0 1000 1000"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<path
-										d="M 336 332C 336 332 336 789 336 789C 336 789 211 789 211 789C 211 789 211 332 211 332C 211 332 336 332 336 332M 346 206C 346 206 346 206 346 206C 346 247 313 280 273 280C 233 280 201 247 201 206C 201 166 233 133 273 133C 313 133 346 166 346 206M 834 508C 834 508 834 789 834 789C 834 789 709 789 709 789C 709 789 709 556 709 556C 709 416 543 427 543 556C 543 556 543 789 543 789C 543 789 419 789 419 789C 419 789 419 332 419 332C 419 332 543 332 543 332C 543 332 543 406 543 406C 601 298 834 290 834 508"
-									/>
-								</svg>
-							</li>
-						</ul>
-					</div>
-					<div class="d-none d-md-block footer-social-icons float-right mt-3">
-						<ul>
-							<li class="d-inline-block icon-facebook">
-								<svg
-									width="24"
-									height="24"
-									viewBox="0 0 1000 1000"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<path
-										d="M 75 0C 75 0 75 0 75 0C 33 0 0 33 0 75C 0 75 0 925 0 925C 0 967 33 1000 75 1000C 75 1000 925 1000 925 1000C 967 1000 1000 967 1000 925C 1000 925 1000 75 1000 75C 1000 33 967 0 925 0C 925 0 75 0 75 0 M 690 1000C 690 1000 534 1000 534 1000C 534 1000 534 613 534 613C 534 613 404 613 404 613C 404 613 404 462 404 462C 404 462 534 462 534 462C 534 462 534 350 534 350C 534 221 613 151 729 151C 784 151 831 155 845 157C 845 157 845 292 845 292C 845 292 765 292 765 292C 702 292 690 322 690 365C 690 365 690 462 690 462C 690 462 840 462 840 462C 840 462 820 613 820 613C 820 613 690 613 690 613C 690 613 690 1000 690 1000"
-									/>
-								</svg>
-							</li>
-							<li class="d-inline-block icon-twitter">
-								<svg
-									width="24"
-									height="24"
-									viewBox="0 0 1000 1000"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<path
-										d="M 342 828C 252 828 163 802 88 754C 175 764 265 739 333 685C 266 685 203 640 181 577C 188 566 232 579 253 568C 178 554 119 482 121 406C 140 412 170 426 196 424C 124 379 100 276 144 204C 227 306 354 371 485 376C 474 330 484 278 513 240C 564 169 672 152 741 204C 774 247 827 205 865 189C 873 206 830 262 799 277C 829 274 859 266 888 254C 886 271 839 317 811 337C 816 452 777 568 705 658C 619 768 480 830 342 828"
-									/>
-								</svg>
-							</li>
-							<li class="d-inline-block icon-instagram">
-								<svg
-									width="24"
-									height="24"
-									viewBox="0 0 1000 1000"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<path
-										d="M 503 25C 631 25 647 26 697 28C 748 30 782 38 812 50C 843 62 870 78 896 105C 922 131 938 157 950 188C 962 218 970 253 972 303C 975 353 975 369 975 498C 975 626 975 642 972 693C 970 743 962 777 950 807C 938 838 922 865 896 891C 870 917 843 934 812 946C 782 957 748 965 698 968C 647 970 631 970 503 970C 374 970 358 970 308 968C 257 965 223 957 193 946C 162 934 136 917 109 891C 83 865 67 838 55 807C 43 777 35 743 33 693C 31 642 30 626 30 498C 30 369 31 353 33 303C 35 253 43 218 55 188C 67 157 83 131 109 105C 136 78 162 62 193 50C 223 38 258 30 308 28C 358 26 374 25 503 25C 503 25 503 25 503 25M 460 110C 372 110 355 111 312 113C 266 115 241 123 224 129C 202 138 186 148 170 165C 153 181 143 197 134 219C 128 236 120 261 118 307C 116 356 115 371 115 498C 115 624 116 639 118 689C 120 735 128 760 134 776C 143 798 153 814 170 831C 186 847 202 857 224 866C 241 872 266 880 312 882C 362 885 377 885 503 885C 629 885 644 885 694 882C 740 880 765 873 781 866C 804 857 819 847 836 831C 852 814 863 798 871 776C 878 760 885 735 887 689C 890 639 890 624 890 498C 890 372 890 357 887 307C 885 261 878 236 871 219C 863 197 852 181 836 165C 819 148 804 138 781 129C 765 123 740 115 694 113C 644 111 629 110 503 110C 487 110 473 110 460 110C 460 110 460 110 460 110M 755 189C 786 189 812 214 812 246C 812 277 786 302 755 302C 724 302 698 277 698 246C 698 214 724 189 755 189C 755 189 755 189 755 189M 503 255C 637 255 745 364 745 498C 745 632 637 740 503 740C 369 740 260 632 260 498C 260 364 369 255 503 255C 503 255 503 255 503 255M 345 498C 345 585 416 655 503 655C 590 655 660 585 660 498C 660 411 590 340 503 340C 416 340 345 411 345 498C 345 498 345 498 345 498"
-									/>
-								</svg>
-							</li>
-							<li class="d-inline-block icon-linkedin">
-								<svg
-									width="24"
-									height="24"
-									viewBox="0 0 1000 1000"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<path
-										d="M 336 332C 336 332 336 789 336 789C 336 789 211 789 211 789C 211 789 211 332 211 332C 211 332 336 332 336 332M 346 206C 346 206 346 206 346 206C 346 247 313 280 273 280C 233 280 201 247 201 206C 201 166 233 133 273 133C 313 133 346 166 346 206M 834 508C 834 508 834 789 834 789C 834 789 709 789 709 789C 709 789 709 556 709 556C 709 416 543 427 543 556C 543 556 543 789 543 789C 543 789 419 789 419 789C 419 789 419 332 419 332C 419 332 543 332 543 332C 543 332 543 406 543 406C 601 298 834 290 834 508"
-									/>
-								</svg>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="footer-bottom pt-2">
-					<p class="footer-links">
-						<a
-							class="footer-nav-a text-decoration-nonefont-weight-bold text-dark"
-							>Editions: </a
-						>a>
-						<a class="footer-nav-a text-decoration-none" href="#"
-							>U.S. Edition</a
-						>
+          <div class="copywrite d-md-inline-block align-bottom mt-2">
+            © 2020 NEWSWEEK
+          </div>
+          <div class="d-md-none footer-social-icons mt-3">
+            <ul>
+              <li class="d-inline-block icon-facebook">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 1000 1000"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M 75 0C 75 0 75 0 75 0C 33 0 0 33 0 75C 0 75 0 925 0 925C 0 967 33 1000 75 1000C 75 1000 925 1000 925 1000C 967 1000 1000 967 1000 925C 1000 925 1000 75 1000 75C 1000 33 967 0 925 0C 925 0 75 0 75 0 M 690 1000C 690 1000 534 1000 534 1000C 534 1000 534 613 534 613C 534 613 404 613 404 613C 404 613 404 462 404 462C 404 462 534 462 534 462C 534 462 534 350 534 350C 534 221 613 151 729 151C 784 151 831 155 845 157C 845 157 845 292 845 292C 845 292 765 292 765 292C 702 292 690 322 690 365C 690 365 690 462 690 462C 690 462 840 462 840 462C 840 462 820 613 820 613C 820 613 690 613 690 613C 690 613 690 1000 690 1000"
+                  />
+                </svg>
+              </li>
+              <li class="d-inline-block icon-twitter">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 1000 1000"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M 342 828C 252 828 163 802 88 754C 175 764 265 739 333 685C 266 685 203 640 181 577C 188 566 232 579 253 568C 178 554 119 482 121 406C 140 412 170 426 196 424C 124 379 100 276 144 204C 227 306 354 371 485 376C 474 330 484 278 513 240C 564 169 672 152 741 204C 774 247 827 205 865 189C 873 206 830 262 799 277C 829 274 859 266 888 254C 886 271 839 317 811 337C 816 452 777 568 705 658C 619 768 480 830 342 828"
+                  />
+                </svg>
+              </li>
+              <li class="d-inline-block icon-instagram">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 1000 1000"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M 503 25C 631 25 647 26 697 28C 748 30 782 38 812 50C 843 62 870 78 896 105C 922 131 938 157 950 188C 962 218 970 253 972 303C 975 353 975 369 975 498C 975 626 975 642 972 693C 970 743 962 777 950 807C 938 838 922 865 896 891C 870 917 843 934 812 946C 782 957 748 965 698 968C 647 970 631 970 503 970C 374 970 358 970 308 968C 257 965 223 957 193 946C 162 934 136 917 109 891C 83 865 67 838 55 807C 43 777 35 743 33 693C 31 642 30 626 30 498C 30 369 31 353 33 303C 35 253 43 218 55 188C 67 157 83 131 109 105C 136 78 162 62 193 50C 223 38 258 30 308 28C 358 26 374 25 503 25C 503 25 503 25 503 25M 460 110C 372 110 355 111 312 113C 266 115 241 123 224 129C 202 138 186 148 170 165C 153 181 143 197 134 219C 128 236 120 261 118 307C 116 356 115 371 115 498C 115 624 116 639 118 689C 120 735 128 760 134 776C 143 798 153 814 170 831C 186 847 202 857 224 866C 241 872 266 880 312 882C 362 885 377 885 503 885C 629 885 644 885 694 882C 740 880 765 873 781 866C 804 857 819 847 836 831C 852 814 863 798 871 776C 878 760 885 735 887 689C 890 639 890 624 890 498C 890 372 890 357 887 307C 885 261 878 236 871 219C 863 197 852 181 836 165C 819 148 804 138 781 129C 765 123 740 115 694 113C 644 111 629 110 503 110C 487 110 473 110 460 110C 460 110 460 110 460 110M 755 189C 786 189 812 214 812 246C 812 277 786 302 755 302C 724 302 698 277 698 246C 698 214 724 189 755 189C 755 189 755 189 755 189M 503 255C 637 255 745 364 745 498C 745 632 637 740 503 740C 369 740 260 632 260 498C 260 364 369 255 503 255C 503 255 503 255 503 255M 345 498C 345 585 416 655 503 655C 590 655 660 585 660 498C 660 411 590 340 503 340C 416 340 345 411 345 498C 345 498 345 498 345 498"
+                  />
+                </svg>
+              </li>
+              <li class="d-inline-block icon-linkedin">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 1000 1000"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M 336 332C 336 332 336 789 336 789C 336 789 211 789 211 789C 211 789 211 332 211 332C 211 332 336 332 336 332M 346 206C 346 206 346 206 346 206C 346 247 313 280 273 280C 233 280 201 247 201 206C 201 166 233 133 273 133C 313 133 346 166 346 206M 834 508C 834 508 834 789 834 789C 834 789 709 789 709 789C 709 789 709 556 709 556C 709 416 543 427 543 556C 543 556 543 789 543 789C 543 789 419 789 419 789C 419 789 419 332 419 332C 419 332 543 332 543 332C 543 332 543 406 543 406C 601 298 834 290 834 508"
+                  />
+                </svg>
+              </li>
+            </ul>
+          </div>
+          <div class="d-none d-md-block footer-social-icons float-right mt-3">
+            <ul>
+              <li class="d-inline-block icon-facebook">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 1000 1000"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M 75 0C 75 0 75 0 75 0C 33 0 0 33 0 75C 0 75 0 925 0 925C 0 967 33 1000 75 1000C 75 1000 925 1000 925 1000C 967 1000 1000 967 1000 925C 1000 925 1000 75 1000 75C 1000 33 967 0 925 0C 925 0 75 0 75 0 M 690 1000C 690 1000 534 1000 534 1000C 534 1000 534 613 534 613C 534 613 404 613 404 613C 404 613 404 462 404 462C 404 462 534 462 534 462C 534 462 534 350 534 350C 534 221 613 151 729 151C 784 151 831 155 845 157C 845 157 845 292 845 292C 845 292 765 292 765 292C 702 292 690 322 690 365C 690 365 690 462 690 462C 690 462 840 462 840 462C 840 462 820 613 820 613C 820 613 690 613 690 613C 690 613 690 1000 690 1000"
+                  />
+                </svg>
+              </li>
+              <li class="d-inline-block icon-twitter">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 1000 1000"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M 342 828C 252 828 163 802 88 754C 175 764 265 739 333 685C 266 685 203 640 181 577C 188 566 232 579 253 568C 178 554 119 482 121 406C 140 412 170 426 196 424C 124 379 100 276 144 204C 227 306 354 371 485 376C 474 330 484 278 513 240C 564 169 672 152 741 204C 774 247 827 205 865 189C 873 206 830 262 799 277C 829 274 859 266 888 254C 886 271 839 317 811 337C 816 452 777 568 705 658C 619 768 480 830 342 828"
+                  />
+                </svg>
+              </li>
+              <li class="d-inline-block icon-instagram">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 1000 1000"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M 503 25C 631 25 647 26 697 28C 748 30 782 38 812 50C 843 62 870 78 896 105C 922 131 938 157 950 188C 962 218 970 253 972 303C 975 353 975 369 975 498C 975 626 975 642 972 693C 970 743 962 777 950 807C 938 838 922 865 896 891C 870 917 843 934 812 946C 782 957 748 965 698 968C 647 970 631 970 503 970C 374 970 358 970 308 968C 257 965 223 957 193 946C 162 934 136 917 109 891C 83 865 67 838 55 807C 43 777 35 743 33 693C 31 642 30 626 30 498C 30 369 31 353 33 303C 35 253 43 218 55 188C 67 157 83 131 109 105C 136 78 162 62 193 50C 223 38 258 30 308 28C 358 26 374 25 503 25C 503 25 503 25 503 25M 460 110C 372 110 355 111 312 113C 266 115 241 123 224 129C 202 138 186 148 170 165C 153 181 143 197 134 219C 128 236 120 261 118 307C 116 356 115 371 115 498C 115 624 116 639 118 689C 120 735 128 760 134 776C 143 798 153 814 170 831C 186 847 202 857 224 866C 241 872 266 880 312 882C 362 885 377 885 503 885C 629 885 644 885 694 882C 740 880 765 873 781 866C 804 857 819 847 836 831C 852 814 863 798 871 776C 878 760 885 735 887 689C 890 639 890 624 890 498C 890 372 890 357 887 307C 885 261 878 236 871 219C 863 197 852 181 836 165C 819 148 804 138 781 129C 765 123 740 115 694 113C 644 111 629 110 503 110C 487 110 473 110 460 110C 460 110 460 110 460 110M 755 189C 786 189 812 214 812 246C 812 277 786 302 755 302C 724 302 698 277 698 246C 698 214 724 189 755 189C 755 189 755 189 755 189M 503 255C 637 255 745 364 745 498C 745 632 637 740 503 740C 369 740 260 632 260 498C 260 364 369 255 503 255C 503 255 503 255 503 255M 345 498C 345 585 416 655 503 655C 590 655 660 585 660 498C 660 411 590 340 503 340C 416 340 345 411 345 498C 345 498 345 498 345 498"
+                  />
+                </svg>
+              </li>
+              <li class="d-inline-block icon-linkedin">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 1000 1000"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M 336 332C 336 332 336 789 336 789C 336 789 211 789 211 789C 211 789 211 332 211 332C 211 332 336 332 336 332M 346 206C 346 206 346 206 346 206C 346 247 313 280 273 280C 233 280 201 247 201 206C 201 166 233 133 273 133C 313 133 346 166 346 206M 834 508C 834 508 834 789 834 789C 834 789 709 789 709 789C 709 789 709 556 709 556C 709 416 543 427 543 556C 543 556 543 789 543 789C 543 789 419 789 419 789C 419 789 419 332 419 332C 419 332 543 332 543 332C 543 332 543 406 543 406C 601 298 834 290 834 508"
+                  />
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom pt-2">
+          <p class="footer-links">
+            <a
+              class="footer-nav-a text-decoration-nonefont-weight-bold text-dark"
+              >Editions: </a
+            >a>
+            <a class="footer-nav-a text-decoration-none" href="#"
+              >U.S. Edition</a
+            >
 
-						<a class="footer-nav-a text-decoration-none px-1" href="#">日本</a>
+            <a class="footer-nav-a text-decoration-none px-1" href="#">日本</a>
 
-						<a class="footer-nav-a text-decoration-none px-1" href="#"
-							>Pakistan</a
-						>
+            <a class="footer-nav-a text-decoration-none px-1" href="#"
+              >Pakistan</a
+            >
 
-						<a class="footer-nav-a text-decoration-none px-1" href="#"
-							>Polska</a
-						>
+            <a class="footer-nav-a text-decoration-none px-1" href="#"
+              >Polska</a
+            >
 
-						<a class="footer-nav-a text-decoration-none px-1" href="#"
-							>Romania</a
-						>
-						<br />
-						<a class="footer-nav-a text-decoration-none px-1" href="#"
-							>About Us</a
-						>
+            <a class="footer-nav-a text-decoration-none px-1" href="#"
+              >Romania</a
+            >
+            <br />
+            <a class="footer-nav-a text-decoration-none px-1" href="#"
+              >About Us</a
+            >
 
-						<a class="footer-nav-a text-decoration-none px-1" href="#"
-							>Corrections</a
-						>
+            <a class="footer-nav-a text-decoration-none px-1" href="#"
+              >Corrections</a
+            >
 
-						<a class="footer-nav-a text-decoration-none px-1" href="#"
-							>Contact Us</a
-						>
+            <a class="footer-nav-a text-decoration-none px-1" href="#"
+              >Contact Us</a
+            >
 
-						<a class="footer-nav-a text-decoration-none px-1" href="#"
-							>Editorial Guidelines</a
-						>
+            <a class="footer-nav-a text-decoration-none px-1" href="#"
+              >Editorial Guidelines</a
+            >
 
-						<a class="footer-nav-a text-decoration-none px-1" href="#"
-							>Advertise</a
-						>
+            <a class="footer-nav-a text-decoration-none px-1" href="#"
+              >Advertise</a
+            >
 
-						<a class="footer-nav-a text-decoration-none px-1" href="#"
-							>Copyright</a
-						>
+            <a class="footer-nav-a text-decoration-none px-1" href="#"
+              >Copyright</a
+            >
 
-						<a class="footer-nav-a text-decoration-none px-1" href="#"
-							>Terms & Conditions</a
-						>
+            <a class="footer-nav-a text-decoration-none px-1" href="#"
+              >Terms & Conditions</a
+            >
 
-						<a class="footer-nav-a text-decoration-none px-1" href="#"
-							>Privacy Policy</a
-						>
+            <a class="footer-nav-a text-decoration-none px-1" href="#"
+              >Privacy Policy</a
+            >
 
-						<a class="footer-nav-a text-decoration-none px-1" href="#"
-							>Cookie Policy</a
-						>
+            <a class="footer-nav-a text-decoration-none px-1" href="#"
+              >Cookie Policy</a
+            >
 
-						<a class="footer-nav-a text-decoration-none px-1" href="#"
-							>Terms of Sale</a
-						>
+            <a class="footer-nav-a text-decoration-none px-1" href="#"
+              >Terms of Sale</a
+            >
 
-						<a class="footer-nav-a text-decoration-none px-1" href="#"
-							>Archive</a
-						>
+            <a class="footer-nav-a text-decoration-none px-1" href="#"
+              >Archive</a
+            >
 
-						<a class="footer-nav-a text-decoration-none px-1" href="#"
-							>Announcements</a
-						>
-						<br />
-						<a class="footer-nav-a text-decoration-none px-1" href="#"
-							>Consent preference</a
-						>
-					</p>
-				</div>
-			</footer>
-		</div>
+            <a class="footer-nav-a text-decoration-none px-1" href="#"
+              >Announcements</a
+            >
+            <br />
+            <a class="footer-nav-a text-decoration-none px-1" href="#"
+              >Consent preference</a
+            >
+          </p>
+        </div>
+      </footer>
+    </div>
 
-		<script src="script.js"></script>
+    <script src="script.js"></script>
 
-		<script
-			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-			crossorigin="anonymous"
-		></script>
-	</body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
