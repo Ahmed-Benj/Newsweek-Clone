@@ -23,7 +23,7 @@ media queries
 
 ## Live Demo
 
-- [Live Demo Link](https://ramon-carrillo.github.io/Newsweek-Clone/)
+- [Live Demo Link](coming soon)
 
 #### Prerequisites
 
