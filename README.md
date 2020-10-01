@@ -13,7 +13,7 @@ background images
 gradient
 media queries
 
-![screenshot](./comingsoon)
+![screenshot](./assets/img/screenshot.png)
 
 ## Built With
 
