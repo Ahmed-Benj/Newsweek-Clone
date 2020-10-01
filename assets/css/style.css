@@ -774,3 +774,13 @@ h6 {
   fill: #666;
   cursor: pointer;
 }
+
+.blue-sponsor {
+  color: #3581f4;
+}
+
+.sponsor .info {
+  border: 1px solid #e6e6e6;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
