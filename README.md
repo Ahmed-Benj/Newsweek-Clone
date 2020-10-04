@@ -23,7 +23,7 @@ media queries
 
 ## Live Demo
 
-- [Live Demo Link](coming soon)
+- [Live Demo Link](https://5f7669572de9ee1b0e83d2cf--ecstatic-stonebraker-040780.netlify.app/)
 
 #### Prerequisites
 
