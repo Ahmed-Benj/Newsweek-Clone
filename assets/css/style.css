@@ -681,6 +681,10 @@ h6 {
   .subscribe-block .col-r form {
     display: flex;
   }
+
+  .navscroll div time{
+    display:none;
+  }
 }
 
 .subscribe-block .col-r .info {
