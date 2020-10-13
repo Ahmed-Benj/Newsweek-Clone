@@ -140,10 +140,6 @@ a {
   cursor: pointer;
 }
 
-.page-nav > li > a:hover {
-  color: #f72210 !important;
-}
-
 .page-nav :first-child,
 .page-nav :last-child {
   border-width: 0;
@@ -168,9 +164,7 @@ a {
   cursor: pointer;
 }
 
-.page-nav2 > li > a:hover {
-  color: #f72210 !important;
-}
+
 
 #search {
   color: #0000008c;
@@ -401,10 +395,6 @@ h6 {
   line-height: 1;
 }
 
-.font-weight-bold {
-  font-weight: 700 !important;
-}
-
 .sign-up {
   background-color: #f61602;
   width: 100%;
@@ -478,10 +468,6 @@ h6 {
 
   #signin a {
     padding: 6px;
-  }
-
-  .fa-chevron-right {
-    display: none !important;
   }
 
   /* nav bottom */
