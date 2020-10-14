@@ -121,7 +121,6 @@ a {
 }
 
 .page-nav {
-  display: flex;
   font-size: 17px;
   line-height: 24px;
   font-weight: 700;
@@ -146,7 +145,6 @@ a {
 }
 
 .page-nav2 {
-  display: flex;
   font-size: 1rem;
   line-height: 1rem;
   font-weight: 700;
@@ -263,26 +261,10 @@ h6 {
 
 /*  The debate secion  */
 
-/* .debate {
-  margin-top: 1.5rem;
-} */
-
 .debate-container {
   border-bottom: 0.3rem solid #9a9a9a;
   border-top: 0.3rem solid #9a9a9a;
 }
-
-/* .title {
-  font-family: var(--main-font);
-}
-
-.title > a {
-  text-decoration: none;
-  color: #9a9a9a;
-  font-weight: 700;
-  line-height: 1.4rem;
-  font-size: 1rem;
-} */
 
 .debate-img {
   align-items: center;
@@ -377,7 +359,6 @@ h6 {
 }
 
 .icon-n {
-  flex: none;
   display: block;
   width: 29px;
   height: 28px;
