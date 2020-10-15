@@ -80,6 +80,18 @@ a {
   z-index: 9999;
 }
 
+.see-all-features {
+  background: #f4f5f6;
+  font-size: 1.125rem;
+}
+
+.magazine-article .category span:first-of-type {
+  padding: 3px 7px;
+  background-color: #f72210;
+  color: #fff;
+  margin-right: 7px;
+}
+
 #signin span {
   padding-right: 10px;
 }
@@ -129,16 +141,6 @@ a {
   padding: 0 54px 0 0;
 }
 
-.page-nav li {
-  flex-grow: 1;
-  text-align: center;
-  border-left: 1px solid #d9d9d9;
-}
-
-.page-nav > li > a {
-  cursor: pointer;
-}
-
 .page-nav :first-child,
 .page-nav :last-child {
   border-width: 0;
@@ -158,12 +160,6 @@ a {
   justify-content: start;
 }
 
-.page-nav2 > li > a {
-  cursor: pointer;
-}
-
-
-
 #search {
   color: #0000008c;
   cursor: text;
@@ -173,8 +169,7 @@ a {
 }
 
 .search-glass {
-  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg)
-    center/contain no-repeat white;
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
   width: 20px;
   height: 20px;
   clip: auto;
@@ -205,7 +200,7 @@ article {
   min-height: 33px;
 }
 
-img {
+.img {
   position: relative;
   width: 100%;
 }
@@ -251,7 +246,6 @@ h3 {
   margin-right: 15px;
   clear: right;
 }
-
 
 h6 {
   color: #000;
@@ -395,24 +389,8 @@ h6 {
   font-size: 1rem;
 }
 
-.see-all-features {
-  background: #f4f5f6;
-  font-size: 1.125rem;
-}
-
-.magazine-article .category span:first-of-type {
-  padding: 3px 7px;
-  background-color: #f72210;
-  color: #fff;
-  margin-right: 7px;
-}
-
 .mag-cat {
   height: 2rem;
-}
-
-.cat > a {
-  color: #f72210;
 }
 
 .article-title {
@@ -446,6 +424,24 @@ h6 {
   #signin {
     font-size: 14px;
     bottom: 0;
+  }
+
+  .page-nav li {
+    flex-grow: 1;
+    text-align: center;
+    border-left: 1px solid #d9d9d9;
+  }
+
+  .cat > a {
+    color: #f72210;
+  }
+
+  .page-nav > li > a {
+    cursor: pointer;
+  }
+
+  .page-nav2 > li > a {
+    cursor: pointer;
   }
 
   #signin a {
@@ -650,9 +646,15 @@ h6 {
     display: flex;
   }
 
-  .navscroll div time{
-    display:none;
+  .navscroll div time {
+    display: none;
   }
+}
+
+.sponsor .info {
+  border: 1px solid #e6e6e6;
+  background-color: #f8f8f8;
+  padding: 20px;
 }
 
 .subscribe-block .col-r .info {
@@ -684,7 +686,7 @@ h6 {
 .free-signup .form-text {
   color: #555;
   font-size: 14px;
-  font-family: "Roboto Condensed", sans-serf;
+  font-family: "Roboto Condensed", sans-serif;
   background-color: white;
   border: 1px solid #e0e1e1;
   text-indent: 9px;
@@ -697,8 +699,7 @@ h6 {
   font-weight: bold;
   font-size: 0;
   font-family: "Roboto Condensed", sans-serif;
-  background: url(https://g.newsweek.com/www/images/free-sign-up.svg)
-    center/108px no-repeat #f61602;
+  background: url(https://g.newsweek.com/www/images/free-sign-up.svg) center/108px no-repeat #f61602;
   border-radius: 3px;
 }
 
@@ -733,7 +734,7 @@ h6 {
 .footer-nav-a {
   color: #7f7f7f;
   font-size: 1.1rem;
-  border-right: 1px solid  rgb(120,120,120);
+  border-right: 1px solid rgb(120, 120, 120);
   padding-right: 10px;
   margin-right: 10px;
 }
@@ -752,10 +753,4 @@ h6 {
 
 .blue-sponsor {
   color: #3581f4;
-}
-
-.sponsor .info {
-  border: 1px solid #e6e6e6;
-  background-color: #f8f8f8;
-  padding: 20px;
 }
