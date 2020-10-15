@@ -732,6 +732,9 @@ h6 {
 .footer-nav-a {
   color: #7f7f7f;
   font-size: 1.1rem;
+  border-right: 1px solid  rgb(120,120,120);
+  padding-right: 10px;
+  margin-right: 10px;
 }
 
 .footer-nav-a:hover {
