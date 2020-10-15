@@ -245,12 +245,13 @@ h3 {
 
 /* Col 2 */
 
-#image {
+.imagee1 {
   float: left;
   width: 135px;
   margin-right: 15px;
   clear: right;
 }
+
 
 h6 {
   color: #000;
