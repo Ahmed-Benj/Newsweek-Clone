@@ -141,6 +141,10 @@ a {
   padding: 0 54px 0 0;
 }
 
+.page-nav li {
+  flex-grow: 1;
+}
+
 .page-nav :first-child,
 .page-nav :last-child {
   border-width: 0;
