@@ -299,11 +299,10 @@ h6 {
 .debate-img2 {
   align-items: center;
   flex-direction: row-reverse;
-  padding: 0 0.5rem;
   font-family: var(--main-font);
   font-weight: 700;
-  line-height: 1.4rem;
-  font-size: 1rem;
+  line-height: 17px;
+  font-size: 18px;
   justify-content: space-between;
 }
 
