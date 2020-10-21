@@ -3,7 +3,7 @@ body {
   color: #333;
   font-size: 13px;
   line-height: 18px;
-  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
 }
 
@@ -169,7 +169,7 @@ a {
   cursor: text;
   font-size: 16px;
   font-weight: 400;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .search-glass {
@@ -229,7 +229,7 @@ h3 {
 
 .summary {
   font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 0 0 10px;
 }
 
@@ -689,7 +689,7 @@ h6 {
 .free-signup .form-text {
   color: #555;
   font-size: 14px;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: white;
   border: 1px solid #e0e1e1;
   text-indent: 9px;
@@ -701,7 +701,7 @@ h6 {
   cursor: pointer;
   font-weight: bold;
   font-size: 0;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: url(https://g.newsweek.com/www/images/free-sign-up.svg) center/108px no-repeat #f61602;
   border-radius: 3px;
 }
