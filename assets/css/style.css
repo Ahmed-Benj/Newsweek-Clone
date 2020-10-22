@@ -758,7 +758,8 @@ h6 {
   color: #3581f4;
 }
 
-@media (max-width: 991px){
-.display-none-under-992 {
+@media (max-width: 991px) {
+  .display-none-under-992 {
     display: none;
-}}
+  }
+}
