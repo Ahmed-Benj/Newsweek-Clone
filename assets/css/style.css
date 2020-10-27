@@ -12,7 +12,6 @@ a {
 }
 
 .content {
-  width: 80%;
   margin: auto;
   background-color: #fff;
   padding: 30px;
@@ -33,7 +32,6 @@ a {
   background-color: #f72210;
   color: #fff;
   padding: 50px 0 50px 0;
-  width: 80%;
   transition: all 0.1s;
   height: 3rem;
 }
@@ -41,7 +39,6 @@ a {
 .navbottom {
   position: relative;
   top: 95px;
-  width: 80%;
   margin: auto;
 }
 
