@@ -23,7 +23,7 @@ media queries
 
 ## Live Demo
 
-- [Live Demo Link](https://dazzling-lamarr-2db2bd.netlify.app/)
+- [Live Demo Link](https://ahmed-benj.github.io/Newsweek-Clone/)
 
 #### Prerequisites
 
